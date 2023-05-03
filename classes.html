@@ -27,7 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         // Fetch the Markdown file and render its content
-        fetch('/pages/charclasses.md')
+        fetch('pages/charclasses.md')
             .then(response => response.text())
             .then(text => {
                 const markdownContainer = document.getElementById('markdown-container');
