@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Page</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Character Classes</h1>
+    </header>
+    <div class="wrapper">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markdown-page.html">Markdown Page</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="markdown-container"></div>
+        </main>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2023 Your Name</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        // Fetch the Markdown file and render its content
+        fetch('charclasses.md')
+            .then(response => response.text())
+            .then(text => {
+                const markdownContainer = document.getElementById('markdown-container');
+                markdownContainer.innerHTML = marked(text);
+            })
+            .catch(error => console.error('Error fetching the Markdown file:', error));
+    </script>
+</body>
+</html>
