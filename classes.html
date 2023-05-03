@@ -30,7 +30,7 @@
         fetch('pages/charclasses.md')
             .then(response => response.text())
             .then(text => {
-                const markdownContainer = document.getElementById('markdown-container');
+                const markdownContainer = document.getElementById('classes');
                 markdownContainer.innerHTML = marked(text);
             })
             .catch(error => console.error('Error fetching the Markdown file:', error));
