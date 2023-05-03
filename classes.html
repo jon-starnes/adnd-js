@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Page</title>
+    <title>Classes</title>
     <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
@@ -13,8 +13,10 @@
     <div class="wrapper">
         <nav class="sidebar">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="markdown-page.html">Markdown Page</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="classes.html">Character Class</a></li>
+                <li><a href="#">Races</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <main>
@@ -30,7 +32,7 @@
         fetch('pages/charclasses.md')
             .then(response => response.text())
             .then(text => {
-                const markdownContainer = document.getElementById('classes');
+                const markdownContainer = document.getElementById('markdown-container');
                 markdownContainer.innerHTML = marked(text);
             })
             .catch(error => console.error('Error fetching the Markdown file:', error));
