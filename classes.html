@@ -28,14 +28,16 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-        // Fetch the Markdown file and render its content
-        fetch('charclasses.md')
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('markdown-files/sample.md')
             .then(response => response.text())
             .then(text => {
                 const markdownContainer = document.getElementById('markdown-container');
                 markdownContainer.innerHTML = marked(text);
             })
             .catch(error => console.error('Error fetching the Markdown file:', error));
-    </script>
+    });
+</script>
+
 </body>
 </html>
