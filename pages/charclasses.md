@@ -4,21 +4,21 @@ AD&D 2nd edition is a role-playing game that allows you to create and play chara
 
 Here is a brief overview of each metaclass and subclass:
 
-## Warrior  
+## Warrior
 Warriors are skilled in combat and physical prowess. They can use any weapon and armor, and have the highest hit points and attack bonuses. They also gain followers at high levels. The subclasses of Warrior are:
 
 - **Fighter**: Fighters are the most versatile and adaptable warriors. They can specialize in a weapon type, gaining extra attacks and bonuses with it. They can also become weapon masters, gaining extraordinary abilities with their chosen weapon.
 - **Ranger**: Rangers are warriors who live in harmony with nature. They can use any weapon and light armor, and have some skills in tracking, stealth, and survival. They also have some limited spellcasting ability from the priest sphere of Animal, Plant, or Elemental. They can specialize in fighting certain types of enemies, such as giants or undead, gaining bonuses against them.
 - **Paladin**: Paladins are holy warriors who serve a good-aligned deity. They can use any weapon and armor, and have some skills in healing, detecting evil, and turning undead. They also have some limited spellcasting ability from the priest sphere of Healing or Protection. They must follow a strict code of conduct, or risk losing their powers.
 
-## Wizard  
+## Wizard
 **Wizards** are masters of arcane magic. They can use only a few weapons and no armor, and have the lowest hit points and attack bonuses. They must study and memorize spells from spellbooks, which they can learn from scrolls or other sources. They can also create magic items and research new spells. The subclasses of Wizard are:
 
 - **Mages**: Mages are the most general and flexible wizards. They can learn spells from any of the eight schools of magic: Abjuration, Alteration, Conjuration/Summoning, Divination, Enchantment/Charm, Illusion/Phantasm, Invocation/Evocation, and Necromancy. However, they must choose one school to be their specialty, gaining extra spells from it, and two schools to be their opposition, which they cannot learn at all.
 - **Specialist**: Specialists are wizards who focus on one school of magic to the exclusion of others. They gain more spells and abilities from their chosen school, but they cannot learn spells from two or more opposition schools. There are eight types of specialists: Abjurer (Abjuration), Transmuter (Alteration), Conjurer (Conjuration/Summoning), Diviner (Divination), Enchanter (Enchantment/Charm), Illusionist (Illusion/Phantasm), Invoker (Invocation/Evocation), and Necromancer (Necromancy).
 - **Illusionist**: Illusionists are a special type of specialist wizard who focus on the school of Illusion/Phantasm. They have some differences from other specialists, such as being able to use daggers and darts as weapons, having a different spell progression table, and being able to multi-class with thieves.
 
-## Priest   
+## Priest
 **Priests** are servants of divine powers. They can use only certain weapons and armor, depending on their faith, and have moderate hit points and attack bonuses. They do not need to memorize spells; instead, they pray for them each day from their deity's sphere of influence. They can also perform miracles such as healing wounds, curing diseases, or turning undead. The subclasses of Priest are:
 
 - **Cleric**: Clerics are the most common and versatile priests. They can use any blunt weapon and any armor,
@@ -44,12 +44,13 @@ and Wards.
 - **Priests of Specific Mythoi**: These are priests who follow a specific deity or pantheon from a particular campaign setting or mythology. They have their own unique spheres of influence, weapons and armor restrictions, special abilities, and role-playing requirements. Some examples are clerics of Helm from the Forgotten Realms setting, priests of Odin from Norse mythology, or templars of Athas from the Dark Sun setting.  
 
 
-## Rogue   
+## Rogue
 **Rogues** are skilled in stealth, deception, and cunning. They can use any weapon and armor, but prefer light ones that do not hinder their mobility and dexterity. They have the lowest hit points and attack bonuses, but they can compensate with their special skills and abilities. The subclasses of Rogue are:
 
 - **Thief**: Thieves are rogues who specialize in stealing, sneaking, lockpicking, trapfinding, climbing, and backstabbing. They have a set of skills that they can improve as they gain levels, such as pick pockets, open locks, find/remove traps, move silently, hide in shadows, detect noise, climb walls, read languages, use scrolls (at high levels), and backstab (deal extra damage when attacking an unaware opponent). 
-- **Bard**: Bards are rogues who use their charm, wit, and musical talent to entertain, persuade, or deceive others. They have some thief skills that they can improve as they gain levels, such as pick pockets, detect noise, climb walls (reduced chance), read languages (reduced chance), use scrolls (at high levels), and backstab (reduced damage). They also have some limited spellcasting ability from the wizard schools of Enchantment/Charm and Illusion/Phantasm. They can also use their musical instruments or singing voice to perform various effects, such as inspiring allies, soothing beasts, countering magic, or fascinating enemies.
+- **Bard**: Bards are rogues who use their charm, wit, and musical talent to entertain, persuade, or deceive others. They have some thief skills that they can improve as they gain levels, such as pick pockets, detect noise, climb walls (reduced chance), read languages (reduced chance), use scrolls (at high levels), and backstab (reduced damage). They also have some limited spellcasting ability from the wizard schools of Enchantment/Charm and Illusion/Phantasm. They can also use their musical instruments or singing voice to perform various effects, such as inspiring allies, soothing beasts, countering magic, or fascinating enemies.  
 
+### **Rogues continued
 [Read here](pages/rogues2.html) to read about other specialist Rogue subclasses.  
 
 This concludes my guide on the classes to choose for AD&D 2nd edition. I hope you found it useful and informative. If you have any questions or feedback, please let me know. 😊
