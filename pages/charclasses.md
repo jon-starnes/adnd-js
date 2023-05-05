@@ -53,9 +53,6 @@ and Wards.
 [Read here](pages/rogues2.html) to read about other specialist Rogue subclasses.   
 
 
-This concludes my guide on the classes to choose for AD&D 2nd edition. I hope you found it useful and informative. If you have any questions or feedback, please let me know. 😊
-
-
 Source: Conversation with Bing, 4/30/2023  
 1. Character class (Dungeons & Dragons) - Wikipedia. https://en.wikipedia.org/wiki/Character_class_%28Dungeons_&_Dragons%29.   
 2. Advanced Dungeons & Dragons 2nd Edition - Character Races and Classes - WKU. https://people.wku.edu/charles.plemons/ad&d/races/class.html.   
