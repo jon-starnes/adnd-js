@@ -32,7 +32,7 @@ h1 {
 
 .sidebar ul {
     list-style: none;
-    padding: 1px;
+    padding: 3px;
 }
 
 .sidebar ul li a {
@@ -48,10 +48,10 @@ h1 {
 }
 
 #markdown-container {
-    padding-top: 8%;
-    padding-right: 13%;
-    padding-bottom: 13%;
-    padding-left: 8%;
+    padding-top: 5%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+    padding-left: 5%;
 }
 
 footer {
