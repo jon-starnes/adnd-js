@@ -35,8 +35,19 @@ Thought,
 Time,
 Travelers,
 War,
-and Wards.
-- **Druid**: Druids are priests who
+and Wards.  
+
+- **Druid**: Druids are priests who worship nature and its cycles. They can use only blunt weapons and leather armor, and have access to a limited range of spheres: All (except reversed spells), Animal, Elemental, Healing, Plant, Sun (reversed only), Weather, and one extra sphere depending on their alignment. They also have some special abilities, such as shapechanging into animals, identifying plants and animals, and being immune to charm spells.
+- **Priests of Specific Mythoi**: These are priests who follow a specific deity or pantheon from a particular campaign setting or mythology. They have their own unique spheres of influence, weapons and armor restrictions, special abilities, and role-playing requirements. Some examples are clerics of Helm from the Forgotten Realms setting, priests of Odin from Norse mythology, or templars of Athas from the Dark Sun setting.  
+
+
+**Rogue**: Rogues are skilled in stealth, deception, and cunning. They can use any weapon and armor, but prefer light ones that do not hinder their mobility and dexterity. They have the lowest hit points and attack bonuses, but they can compensate with their special skills and abilities. The subclasses of Rogue are:
+
+- **Thief**: Thieves are rogues who specialize in stealing, sneaking, lockpicking, trapfinding, climbing, and backstabbing. They have a set of skills that they can improve as they gain levels, such as pick pockets, open locks, find/remove traps, move silently, hide in shadows, detect noise, climb walls, read languages, use scrolls (at high levels), and backstab (deal extra damage when attacking an unaware opponent). 
+- **Bard**: Bards are rogues who use their charm, wit, and musical talent to entertain, persuade, or deceive others. They have some thief skills that they can improve as they gain levels, such as pick pockets, detect noise, climb walls (reduced chance), read languages (reduced chance), use scrolls (at high levels), and backstab (reduced damage). They also have some limited spellcasting ability from the wizard schools of Enchantment/Charm and Illusion/Phantasm. They can also use their musical instruments or singing voice to perform various effects, such as inspiring allies, soothing beasts, countering magic, or fascinating enemies.
+
+This concludes my guide on the classes to choose for AD&D 2nd edition. I hope you found it useful and informative. If you have any questions or feedback, please let me know. 😊
+
 
 Source: Conversation with Bing, 4/30/2023  
 1. Character class (Dungeons & Dragons) - Wikipedia. https://en.wikipedia.org/wiki/Character_class_%28Dungeons_&_Dragons%29.   
