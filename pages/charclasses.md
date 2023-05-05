@@ -39,12 +39,8 @@ and Wards.
 - **Druid**: Druids are priests who
 
 Source: Conversation with Bing, 4/30/2023  
-(1) Character class (Dungeons & Dragons) - Wikipedia. https://en.wikipedia.org/wiki/Character_class_%28Dungeons_&_Dragons%29.   
-
-(2) Advanced Dungeons & Dragons 2nd Edition - Character Races and Classes - WKU. https://people.wku.edu/charles.plemons/ad&d/races/class.html.   
-
-(3) Dragonsfoot - Second Edition AD&D. https://www.dragonsfoot.org/se/.   
-
-(4) Multi-Class and Dual-Class Characters (PHB) - Fandom. https://adnd2e.fandom.com/wiki/Multi-Class_and_Dual-Class_Characters_%28PHB%29.   
-
-(5) Character class (Dungeons & Dragons) - Wikipedia. https://en.wikipedia.org/wiki/Character_class_%28Dungeons_%26_Dragons%29.   
+1. Character class (Dungeons & Dragons) - Wikipedia. https://en.wikipedia.org/wiki/Character_class_%28Dungeons_&_Dragons%29.   
+2. Advanced Dungeons & Dragons 2nd Edition - Character Races and Classes - WKU. https://people.wku.edu/charles.plemons/ad&d/races/class.html.   
+3. Dragonsfoot - Second Edition AD&D. https://www.dragonsfoot.org/se/.   
+4. Multi-Class and Dual-Class Characters (PHB) - Fandom. https://adnd2e.fandom.com/wiki/Multi-Class_and_Dual-Class_Characters_%28PHB%29.   
+5. Character class (Dungeons & Dragons) - Wikipedia. https://en.wikipedia.org/wiki/Character_class_%28Dungeons_%26_Dragons%29.   
