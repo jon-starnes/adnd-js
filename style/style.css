@@ -24,7 +24,8 @@ h1 {
 }
 
 .sidebar {
-    width: 200px;
+    width: 20%;
+    min-width: 200px; /* The navigation menu will not become narrower than 200 pixels */
     background: #f4f4f4;
     border-right: 2px solid #ccc;
 }
