@@ -20,7 +20,9 @@ header, main, footer {
 }
 
 header {
-    background: #f4f4f4;
+    background-color: #8B4513; /* dark brown */
+    color: #FAF0E6; /* light linen */
+    /* background: #f4f4f4; */
     border-bottom: 3px solid #ccc;
 }
 
@@ -32,7 +34,9 @@ h1 {
 .sidemenu1 {
     width: 21%;
     min-width: 233px; /* The navigation menu will not become narrower than 200 pixels */
-    background: #f4f4f4;
+    /* background: #f4f4f4; */
+    background-color: #A0522D; /* sienna */
+    color: #F5F5DC; /* beige */
     border-right: 2px solid #ccc;
 }
 
@@ -61,7 +65,9 @@ h1 {
 }
 
 footer {
-    background: #f4f4f4;
+    /* background: #f4f4f4; */
+    background-color: #8B4513; /* dark brown */
+    color: #FAF0E6; /* light linen */
     border-top: 3px solid #ccc;
     text-align: center;
 }
