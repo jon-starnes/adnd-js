@@ -32,7 +32,7 @@ h1 {
 
 .sidebar ul {
     list-style: none;
-    padding: 0;
+    padding: 1px;
 }
 
 .sidebar ul li a {
