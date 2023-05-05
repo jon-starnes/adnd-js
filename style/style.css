@@ -7,7 +7,7 @@ body {
 }
 
 header, main, footer {
-    padding: 20px;
+    padding: 21px;
 }
 
 .wrapper {
@@ -16,7 +16,7 @@ header, main, footer {
 
 header {
     background: #f4f4f4;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 3px solid #ccc;
 }
 
 h1 {
@@ -24,8 +24,8 @@ h1 {
 }
 
 .sidebar {
-    width: 20%;
-    min-width: 200px; /* The navigation menu will not become narrower than 200 pixels */
+    width: 21%;
+    min-width: 233px; /* The navigation menu will not become narrower than 200 pixels */
     background: #f4f4f4;
     border-right: 2px solid #ccc;
 }
@@ -37,7 +37,7 @@ h1 {
 
 .sidebar ul li a {
     display: block;
-    padding: 10px;
+    padding: 13px;
     color: #333;
     text-decoration: none;
 }
@@ -47,8 +47,15 @@ h1 {
     color: #000;
 }
 
+#markdown-container {
+    padding-top: 21px;
+    padding-right: 34px;
+    padding-bottom: 21px;
+    padding-left: 34px;
+}
+
 footer {
     background: #f4f4f4;
-    border-top: 2px solid #ccc;
+    border-top: 3px solid #ccc;
     text-align: center;
 }
