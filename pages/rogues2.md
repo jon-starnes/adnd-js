@@ -1,3 +1,4 @@
+## Rogues: Secondary Specialty Classes
 In AD&D 2nd edition, there are two core subclasses for Rogues: Thief and Bard¹. However, there are also other optional subclasses that were introduced in various supplements and settings, such as:
 
 - **Assassin**: Assassins are rogues who specialize in killing for hire. They have some thief skills, such as move silently, hide in shadows, climb walls, and backstab. They also have some special abilities, such as disguise, poison use, and death attack (a more powerful form of backstab that can instantly kill the target). Assassins must be evil in alignment and belong to a secret guild. They first appeared in the Player's Handbook (1e) (1978) and were later revised in the Complete Thief's Handbook (1992).
