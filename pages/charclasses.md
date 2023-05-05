@@ -51,7 +51,9 @@ and Wards.
 - **Bard**: Bards are rogues who use their charm, wit, and musical talent to entertain, persuade, or deceive others. They have some thief skills that they can improve as they gain levels, such as pick pockets, detect noise, climb walls (reduced chance), read languages (reduced chance), use scrolls (at high levels), and backstab (reduced damage). They also have some limited spellcasting ability from the wizard schools of Enchantment/Charm and Illusion/Phantasm. They can also use their musical instruments or singing voice to perform various effects, such as inspiring allies, soothing beasts, countering magic, or fascinating enemies.  
 
 [Read here](pages/rogues2.html) to read about other specialist Rogue subclasses.   
-
+  
+  
+---  
 
 Source: Conversation with Bing, 4/30/2023  
 1. Character class (Dungeons & Dragons) - Wikipedia. https://en.wikipedia.org/wiki/Character_class_%28Dungeons_&_Dragons%29.   
