@@ -10,6 +10,11 @@ header, main, footer {
     padding: 21px;
 }
 
+.main-title {
+    font-size: 2em;  /* Adjust the font size as needed */
+    margin-left: 34px;  /* Increase the left margin */
+}
+
 .wrapper {
     display: flex;
 }
