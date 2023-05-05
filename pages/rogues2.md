@@ -6,9 +6,10 @@ In AD&D 2nd edition, there are two core subclasses for Rogues: Thief and Bard¹.
 - **Acrobat**: Acrobats are rogues who specialize in tumbling and gymnastics. They have some thief skills, such as pick pockets, open locks, find/remove traps, and read languages. They also have some special abilities, such as balance (a way to avoid falling or being knocked down), jump (a way to leap over obstacles or enemies), and tumble (a way to reduce damage from falls or attacks). Acrobats can be of any alignment and often belong to a circus or a thieves' guild. They first appeared in the Complete Thief's Handbook (1992).
 - **Bounty Hunter**: Bounty Hunters are rogues who specialize in hunting down fugitives and criminals for a reward. They have some thief skills, such as move silently, hide in shadows, find/remove traps, and backstab. They also have some special abilities, such as capture (a way to restrain or immobilize a target), interrogation (a way to extract information from a target), and tracking (a way to follow a target's trail). Bounty Hunters can be of any alignment and often work alone or for a law enforcement agency. They first appeared in the Complete Thief's Handbook (1992).
 
-These are some of the most common rogue subclasses that were available in AD&D 2nd edition. There may be others that I have not mentioned here. If you want to learn more about them, you can check out the sources that I have referenced below.😊
-
-Source: Conversation with Bing, 5/5/2023
-(1) Rogue (PHB) - Advanced Dungeons & Dragons 2nd Edition Wiki. https://adnd2e.fandom.com/wiki/Rogue_%28PHB%29.
-(2) Rogue | Dungeons & Dragons Lore Wiki | Fandom. https://dungeonsdragons.fandom.com/wiki/Rogue.
-(3) Dungeons & Dragons: All Official Rogue Subclasses, Ranked - The Gamer. https://www.thegamer.com/dungeons-dragons-best-rogue-subclasses-ranked/.
+These are some of the most common rogue subclasses that were available in AD&D 2nd edition. There may be others that I have not mentioned here. If you want to learn more about them, you can check out the sources that I have referenced below.
+  
+  
+Source: Conversation with Bing, 5/5/2023.  
+1. Rogue (PHB) - Advanced Dungeons & Dragons 2nd Edition Wiki. https://adnd2e.fandom.com/wiki/Rogue_%28PHB%29.
+2. Rogue | Dungeons & Dragons Lore Wiki | Fandom. https://dungeonsdragons.fandom.com/wiki/Rogue.  
+3. Dungeons & Dragons: All Official Rogue Subclasses, Ranked - The Gamer. https://www.thegamer.com/dungeons-dragons-best-rogue-subclasses-ranked/.
