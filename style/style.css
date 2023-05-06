@@ -59,8 +59,7 @@ h1 {
 }
 
 .sidemenu1 ul li a:hover {
-    color: #4B0082;
-    /* background: #ccc; */
+    background: #4B0082;
     color: #F5DEB3; /* wheat */
     /*color: #000; */
 }
