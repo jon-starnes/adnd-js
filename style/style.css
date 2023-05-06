@@ -52,14 +52,17 @@ h1 {
 .sidemenu1 ul li a {
     display: block;
     padding: 13px;
-    color: #4B0082;
+    background-color: #483D8B; /* dark slate blue */
+    color: #F5DEB3; /* wheat */
     /* color: #F5F5DC; /* beige */
     text-decoration: none;
 }
 
 .sidemenu1 ul li a:hover {
-    background: #ccc;
-    color: #000;
+    color: #4B0082;
+    /* background: #ccc; */
+    color: #F5DEB3; /* wheat */
+    /*color: #000; */
 }
 
 #markdown-container {
