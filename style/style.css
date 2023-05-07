@@ -24,7 +24,7 @@ header, main, footer {
 }
 
 header {
-    background-color: #776A9A; /* less saturated indigo */
+    background-color: #5C5186; /* less saturated and slightly darker indigo */
     color: #EAD6A7; /* less saturated gold */
     /* background-color: #4B0082; /* indigo */
     /* color: #FFD700; /* gold */
@@ -42,7 +42,7 @@ h1 {
 .sidemenu1 {
     width: 21%;
     min-width: 233px; /* The navigation menu will not become narrower than 200 pixels */
-    background-color: #8D89A7; /* less saturated dark slate blue */
+    background-color: #635C7E; /* less saturated and slightly darker dark slate blue */
     color: #EDE3C9; /* less saturated wheat */
     /* background-color: #483D8B; /* dark slate blue */
     /* color: #F5DEB3; /* wheat */
@@ -60,14 +60,14 @@ h1 {
     display: block;
     padding: 13px;
     /* background-color: #483D8B; /* dark slate blue */
-    background-color: #8D89A7; /* less saturated dark slate blue */
+    background-color: #635C7E; /* less saturated and slightly darker dark slate blue */
     color: #EDE3C9; /* less saturated wheat */
     /* color: #F5F5DC; /* beige */
     text-decoration: none;
 }
 
 .sidemenu1 ul li a:hover {
-    background-color: #8D89A7; /* less saturated dark slate blue */
+    background-color: #635C7E; /* less saturated and slightly darker dark slate blue */
     /*color: #EDE3C9; /* less saturated wheat */
     /* background: #483D8B; */
     color: #fefbf7; /* Floral white */
@@ -82,7 +82,7 @@ h1 {
 }
 
 footer {
-    background-color: #776A9A; /* less saturated indigo */
+    background-color: #5C5186; /* less saturated and slightly darker indigo */
     color: #EAD6A7; /* less saturated gold */
     /* background-color: #4B0082; /* indigo */
     /* color: #FFD700; /* gold */
