@@ -40,10 +40,8 @@ h1 {
 .sidemenu1 {
     width: 21%;
     min-width: 233px; /* The navigation menu will not become narrower than 200 pixels */
-    background-color: #635C7E; /* less saturated and slightly darker dark slate blue */
-    color: #EDE3C9; /* less saturated wheat */
-    /* background-color: #483D8B; /* dark slate blue */
-    /* color: #F5DEB3; /* wheat */
+    background-color: #483D8B; /* dark slate blue */
+    color: #F5DEB3; /* wheat */
     /* background-color: #A0522D; /* sienna */
     /* color: #F5F5DC; /* beige */
     border-right: 2px solid #ccc;
@@ -57,19 +55,18 @@ h1 {
 .sidemenu1 ul li a {
     display: block;
     padding: 13px;
-    /* background-color: #483D8B; /* dark slate blue */
-    background-color: #635C7E; /* less saturated and slightly darker dark slate blue */
-    color: #EDE3C9; /* less saturated wheat */
+    background-color: #483D8B; /* dark slate blue */
+    color: #F5DEB3; /* wheat */
     /* color: #F5F5DC; /* beige */
     text-decoration: none;
+    transition: text-shadow 0.3s ease;
 }
 
 .sidemenu1 ul li a:hover {
-    background-color: #635C7E; /* less saturated and slightly darker dark slate blue */
-    /*color: #EDE3C9; /* less saturated wheat */
-    /* background: #483D8B; */
-    color: #fefbf7; /* Floral white */
+    background: #483D8B; */
+    /* color: #fefbf7; /* Floral white */
     /*color: #000; */
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700;
 }
 
 #markdown-container {
