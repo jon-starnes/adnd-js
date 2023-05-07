@@ -24,10 +24,8 @@ header, main, footer {
 }
 
 header {
-    background-color: #3B3253; /* less saturated and slightly darker indigo */
-    color: #EAD6A7; /* less saturated gold */
-    /* background-color: #4B0082; /* indigo */
-    /* color: #FFD700; /* gold */
+    background-color: #4B0082; /* indigo */
+    color: #FFD700; /* gold */
     /* background-color: #8B4513; /* dark brown */
     /* color: #FAF0E6; /* light linen */ 
     /* background: #f4f4f4; */
@@ -82,10 +80,8 @@ h1 {
 }
 
 footer {
-    background-color: #3B3253; /* less saturated and slightly darker indigo */
-    color: #EAD6A7; /* less saturated gold */
-    /* background-color: #4B0082; /* indigo */
-    /* color: #FFD700; /* gold */
+    background-color: #4B0082; /* indigo */
+    color: #FFD700; /* gold */
     /*background-color: #8B4513; /* dark brown */
     /*color: #FAF0E6; /* light linen */
     border-top: 3px solid #ccc;
