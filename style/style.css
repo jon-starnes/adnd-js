@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
+    background-color:  #FFF5E6;
+    color: ;
     margin: 0;
     padding: 0;
     color: #333;
@@ -60,7 +62,7 @@ h1 {
 
 .sidemenu1 ul li a:hover {
     background: #483D8B;
-    color: #fcf5e8; /* Victorian Linen */
+    color: #fefbf7; /* Floral white */
     /*color: #000; */
 }
 
