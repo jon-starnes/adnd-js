@@ -24,7 +24,7 @@ header, main, footer {
 }
 
 header {
-    background-color: #5C5186; /* less saturated and slightly darker indigo */
+    background-color: #3B3253; /* less saturated and slightly darker indigo */
     color: #EAD6A7; /* less saturated gold */
     /* background-color: #4B0082; /* indigo */
     /* color: #FFD700; /* gold */
@@ -82,7 +82,7 @@ h1 {
 }
 
 footer {
-    background-color: #5C5186; /* less saturated and slightly darker indigo */
+    background-color: #3B3253; /* less saturated and slightly darker indigo */
     color: #EAD6A7; /* less saturated gold */
     /* background-color: #4B0082; /* indigo */
     /* color: #FFD700; /* gold */
