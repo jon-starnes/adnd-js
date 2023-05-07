@@ -1,3 +1,16 @@
+header, main, footer {
+    padding: 21px;
+}
+
+header {
+    background-color: #4B0082; /* indigo */
+    color: #FFD700; /* gold */
+    /* background-color: #8B4513; /* dark brown */
+    /* color: #FAF0E6; /* light linen */ 
+    /* background: #f4f4f4; */
+    border-bottom: 3px solid #ccc;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
@@ -10,8 +23,14 @@ body {
     color: #333;
 }
 
-header, main, footer {
-    padding: 21px;
+/* Main content area on the index page only */
+.index-page #main-content {
+    min-height: calc(100vh - (header_height + footer_height));
+}
+
+/* Example: if your header is 60px tall and your footer is 40px tall */
+.index-page #main-content {
+    min-height: calc(100vh - 100px);
 }
 
 .main-title {
@@ -21,15 +40,6 @@ header, main, footer {
 
 .wrapper {
     display: flex;
-}
-
-header {
-    background-color: #4B0082; /* indigo */
-    color: #FFD700; /* gold */
-    /* background-color: #8B4513; /* dark brown */
-    /* color: #FAF0E6; /* light linen */ 
-    /* background: #f4f4f4; */
-    border-bottom: 3px solid #ccc;
 }
 
 h1 {
