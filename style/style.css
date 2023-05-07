@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
-    background-color: #F9F1E9; /* muted warm light beige */
-    color: #5A5A5A; /* muted dark gray */
+    background-color: #FBF8F2; /* less saturated warm light beige */
+    color: #797979; /* less saturated dark gray */
     /* background-color:  #FFF5E6;
     color: ; */
     margin: 0;
@@ -24,8 +24,8 @@ header, main, footer {
 }
 
 header {
-    background-color: #6A4A8F; /* muted indigo */
-    color: #E0C381; /* muted gold */
+    background-color: #776A9A; /* less saturated indigo */
+    color: #EAD6A7; /* less saturated gold */
     /* background-color: #4B0082; /* indigo */
     /* color: #FFD700; /* gold */
     /* background-color: #8B4513; /* dark brown */
@@ -42,8 +42,8 @@ h1 {
 .sidemenu1 {
     width: 21%;
     min-width: 233px; /* The navigation menu will not become narrower than 200 pixels */
-    background-color: #6E668C; /* muted dark slate blue */
-    color: #E3D7B3; /* muted wheat */
+    background-color: #8D89A7; /* less saturated dark slate blue */
+    color: #EDE3C9; /* less saturated wheat */
     /* background-color: #483D8B; /* dark slate blue */
     /* color: #F5DEB3; /* wheat */
     /* background-color: #A0522D; /* sienna */
@@ -60,27 +60,30 @@ h1 {
     display: block;
     padding: 13px;
     /* background-color: #483D8B; /* dark slate blue */
-    color: #F5DEB3; /* wheat */
+    background-color: #8D89A7; /* less saturated dark slate blue */
+    color: #EDE3C9; /* less saturated wheat */
     /* color: #F5F5DC; /* beige */
     text-decoration: none;
 }
 
 .sidemenu1 ul li a:hover {
-    background: #483D8B;
+    background-color: #8D89A7; /* less saturated dark slate blue */
+    /*color: #EDE3C9; /* less saturated wheat */
+    /* background: #483D8B; */
     color: #fefbf7; /* Floral white */
     /*color: #000; */
 }
 
 #markdown-container {
-    padding-top: 1%;
-    padding-right: 8%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-right: 13%;
+    padding-bottom: 3%;
     padding-left: 3%;
 }
 
 footer {
-    background-color: #6A4A8F; /* muted indigo */
-    color: #E0C381; /* muted gold */
+    background-color: #776A9A; /* less saturated indigo */
+    color: #EAD6A7; /* less saturated gold */
     /* background-color: #4B0082; /* indigo */
     /* color: #FFD700; /* gold */
     /*background-color: #8B4513; /* dark brown */
