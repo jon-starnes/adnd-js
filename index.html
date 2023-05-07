@@ -20,15 +20,26 @@
             </ul>
         </nav>
         <main>
-            <p>The site here is still a work in progress and will likely only feature static character creation guides to help new players get started. 
-              After the character creation pages are in place, I will work in a method for creating custom character sheets, inventory and character profiles. 
-              At some point I plan to implement a shared real time chat for running adventure campaigns.
-            </p>  
-            <p>The site itself is a simple no frills website hosted on GitHub Pages with a sidebar navigation.</p>
+            <div id="markdown-container"></div>
         </main>
     </div>
     <footer>
         <p>Copyright &copy; 2023 Jon Starnes</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
+    <footer>
+        <p>Copyright &copy; 2023 Jon Starnes</p>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('pages/charclasses.md')
+            .then(response => response.text())
+            .then(text => {
+                const markdownContainer = document.getElementById('markdown-container');
+                markdownContainer.innerHTML = marked(text);
+            })
+            .catch(error => console.error('Error fetching the Markdown file:', error));
+    });
+    </script>
 </body>
 </html>
