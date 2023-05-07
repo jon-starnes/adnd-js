@@ -50,7 +50,7 @@ and Wards.
 - **Thief**: Thieves are rogues who specialize in stealing, sneaking, lockpicking, trapfinding, climbing, and backstabbing. They have a set of skills that they can improve as they gain levels, such as pick pockets, open locks, find/remove traps, move silently, hide in shadows, detect noise, climb walls, read languages, use scrolls (at high levels), and backstab (deal extra damage when attacking an unaware opponent). 
 - **Bard**: Bards are rogues who use their charm, wit, and musical talent to entertain, persuade, or deceive others. They have some thief skills that they can improve as they gain levels, such as pick pockets, detect noise, climb walls (reduced chance), read languages (reduced chance), use scrolls (at high levels), and backstab (reduced damage). They also have some limited spellcasting ability from the wizard schools of Enchantment/Charm and Illusion/Phantasm. They can also use their musical instruments or singing voice to perform various effects, such as inspiring allies, soothing beasts, countering magic, or fascinating enemies.  
 
-[Read here](pages/rogues2.html) to read about other specialist Rogue subclasses.   
+[Read here](rogues2.html) to read about other specialist Rogue subclasses.   
   
   
 ---  
