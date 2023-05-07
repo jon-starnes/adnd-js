@@ -28,11 +28,6 @@ body {
     min-height: calc(100vh - (header_height + footer_height));
 }
 
-/* Example: if your header is 60px tall and your footer is 40px tall */
-.index-page #main-content {
-    min-height: calc(100vh - 100px);
-}
-
 .main-title {
     font-size: 2em;  /* Adjust the font size as needed */
     margin-left: 34px;  /* Increase the left margin */
