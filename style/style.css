@@ -13,7 +13,7 @@ header {
 
 
 /* Topbar Menu */
-#topbar-menu {
+.topbar-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,7 +21,7 @@ header {
     /* Other styles */
 }
 
-#topbar-menu a {
+.topbar-menu a {
     /* Add your link styles here */
     /* display: block; */
     padding: 13px;
