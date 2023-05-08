@@ -11,6 +11,32 @@ header {
     border-bottom: 3px solid #ccc;
 }
 
+
+/* Topbar Menu */
+#topbar-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent; /* Remove the background color if you want to use the header background color */
+    /* Other styles */
+}
+
+#topbar-menu a {
+    /* Add your link styles here */
+    /* display: block; */
+    padding: 13px;
+    background-color: transparent; /* dark slate blue */
+    color: #F5DEB3; /* wheat */
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+}
+
+
+.topbar-menu a:hover {
+    text-shadow: 0 0 8px #FFD700, 0 0 13px #FFD700, 0 0 21px #FFD700, 0 0 34px #FFD700;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
