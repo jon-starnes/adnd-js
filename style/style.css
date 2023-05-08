@@ -69,9 +69,9 @@ h1 {
 
 .sidemenu1 ul li a:hover {
     background: #483D8B; */
-    /* color: #fefbf7; /* Floral white */
+    color: #F5DEB3; /* Floral white */
     /*color: #000; */
-    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700;
+    text-shadow: 0 0 8px #FFD700, 0 0 13px #FFD700, 0 0 21px #FFD700, 0 0 34px #FFD700;
 }
 
 #markdown-container {
