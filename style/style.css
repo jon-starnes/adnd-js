@@ -40,13 +40,13 @@ header {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
-    background-color: #FBF8F2; /* less saturated warm light beige */
-    color: #797979; /* less saturated dark gray */
+    background-color: #2E3842; /* darker slate blue /* #FBF8F2; /* less saturated warm light beige */
+    color: #F5DEB3; /* wheat */
+    /* color: #797979; /* less saturated dark gray */
     /* background-color:  #FFF5E6;
-    color: ; */
+    */
     margin: 0;
     padding: 0;
-    color: #333;
 }
 
 /* Main content area on the index page only */
@@ -61,6 +61,10 @@ body {
 
 .wrapper {
     display: flex;
+    background-color: #FBF8F2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 h1 {
