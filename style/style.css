@@ -62,9 +62,12 @@ body {
 .wrapper {
     display: flex;
     background-color: #FBF8F2;
-    display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 21px;
+    padding-right: 21px;
 }
 
 h1 {
@@ -105,10 +108,10 @@ h1 {
 }
 
 #markdown-container {
-    padding-top: 2%;
+    padding-top: 3%;
     padding-right: 13%;
-    padding-bottom: 3%;
-    padding-left: 3%;
+    padding-bottom: 5%;
+    padding-left: 13%;
 }
 
 footer {
