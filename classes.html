@@ -7,26 +7,34 @@
     <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
+    
     <header>
         <h1 class="main-title">Jon's Adventure Generator and D&D Player Guide</h1>
-    </header>
-    <div class="wrapper">
-        <nav class="sidemenu1">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="classes.html">Character Class</a></li>
-                <li><a href="races.html">Races</a></li>
-                <li><a href="character-creation.html">Character Creation</a></li>
-            </ul>
+    
+        <!-- Add the nav element here -->
+        <nav class="topbar-menu">
+            <a href="#">Home</a>
+            <a href="classes.html">Character Class</a>
+            <a href="races.html">Races</a>
+            <a href="character-creation.html">Character Creation</a>
         </nav>
+        
+    </header>
+    
+    <div class="wrapper">
+    
         <main>
             <div id="markdown-container"></div>
         </main>
+    
     </div>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
+    
     <footer>
         <p>Copyright &copy; 2023 Jon Starnes</p>
     </footer>
+    
     <script>
     document.addEventListener('DOMContentLoaded', () => {
         fetch('pages/charclasses.md')
