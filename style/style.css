@@ -115,8 +115,6 @@ h1 {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     background-color: #241e45; /* #4B0082; /* indigo */
     color: #FFD700; /* gold */
     /*background-color: #8B4513; /* dark brown */
