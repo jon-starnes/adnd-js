@@ -27,13 +27,13 @@
   <input type="text" id="prompt">
   <button onclick="sendPrompt()">Send Prompt</button>
 
-  <div id="resultsb"></div>
+  <div id="results"></div>
 
   <script src="https://apis.google.com/js/platform.js"></script>
   <script>
     function sendPrompt() {
       var prompt = document.getElementById("prompt").value;
-      var results = document.getElementById("resultsb");
+      var results = document.getElementById("results");
 
       // Create a new Google Cloud Natural Language API client.
       var client = new google.cloud.naturalLanguage.v1.LanguageServiceClient();
