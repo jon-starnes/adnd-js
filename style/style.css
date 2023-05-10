@@ -122,3 +122,15 @@ footer {
     border-top: 3px solid #ccc;
     text-align: center;
 }
+
+/* Bard Results */
+#resultsb {
+    display: flex;
+    background-color: #FBF8F2;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 21px;
+    padding-right: 21px;
+}
