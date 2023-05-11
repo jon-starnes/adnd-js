@@ -27,8 +27,14 @@
   <input type="text" id="prompt">
   <button onclick="sendPrompt()">Send Prompt</button>
 
-  <div id="results"></div>
-
+  
+  <div class="wrapper">
+    <main>
+      <div id="results"></div>
+    </main>
+  </div>
+  
+  
   <script src="https://apis.google.com/js/platform.js"></script>
   <script>
     function sendPrompt() {
