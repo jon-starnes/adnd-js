@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My GitHub Chatbot</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  
+</head>
+  
+<body>
+  <header>
+        <h1 class="main-title">My Test Chatbot</h1>
+    
+        <!-- Add the nav element here -->
+        <nav class="topbar-menu">
+            <a href="index.html">Home</a>
+            <a href="classes.html">Character Class</a>
+            <a href="races.html">Races</a>
+            <a href="character-creation.html">Character Creation</a>
+        </nav>
+        
+  </header>
+  
+  <div class="wrapper">
+    <main>
+      <h1>Bard or Bing Chatbot</h1>
+      <input type="text" id="prompt">
+      <button onclick="sendPrompt()">Send Prompt</button>
+      
+      <div id="results"></div>
+
+      <script>
+        function sendPrompt() {
+          // Get the prompt from the input field.
+          var prompt = document.getElementById("prompt").value;
+
+          // Send the prompt to the Bard or Bing chatbot.
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", "https://bard.ai/api/v1/generate", true);
+          xhr.setRequestHeader("Content-Type", "application/json");
+          xhr.send(JSON.stringify({
+            prompt: prompt
+          }));
+
+          // Handle the response.
+          xhr.onload = function() {
+            if (xhr.status === 200) {
+              // The response is successful.
+              var results = JSON.parse(xhr.responseText);
+              document.getElementById("results").innerHTML = results.text;
+            } else {
+              // The response is unsuccessful.
+              document.getElementById("results").innerHTML = "Error: " + xhr.status;
+            }
+          };
+        }
+      </script>
+      
+      
+    </main>
+  </div>
+  
+  <footer>
+    <p>Copyright &copy; 2023 Jon Starnes</p>
+  </footer>
+  
+</body>
+</html>
