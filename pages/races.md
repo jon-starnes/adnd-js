@@ -3,7 +3,7 @@
 ## Human
 
 <div style="display: flex; align-items: center;">
-    <img src="images/race_humans01.png" alt="Image Description" style="width: 300px; margin-right: 20px;">
+    <img src="images/race_humans02.png" alt="Image Description" style="width: 300px; margin-right: 20px;">
     <p>
         Humans are the most versatile race in the game. They can fit into any class or profession, and they have no natural strengths or weaknesses. They have a higher potential for experience points than any other race. In terms of attributes, humans receive no bonuses or negatives, but they have a bonus skill point at first level. 
 Human culture is diverse and varied, with many different kingdoms, empires, and cultures throughout the game world. Humans value individualism, ambition, and freedom. They are often the most widespread race in any given campaign setting, with different human cultures having their own customs, beliefs, and traditions.
