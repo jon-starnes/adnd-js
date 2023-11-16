@@ -8,9 +8,9 @@
 
 <div id="elf-race">
   <h2><Elves</h2> 
-    
+  <p>
     Elves are graceful and dexterous creatures, known for their long life spans and their mastery of archery. They have a natural resistance to sleep spells and are immune to paralysis. However, they have a lower constitution score and are vulnerable to iron weapons. Elves have a rich and sophisticated culture, with their own cities, traditions, and customs. They value beauty, art, and nature, and they often have a connection to the land. Elves can be haughty and aloof, but they are also loyal to their friends and allies. Recommended classes: Elves make excellent rangers, fighters, and wizards.
-
+  </p>
 </div>
 
 <div id="dwarf-race">
