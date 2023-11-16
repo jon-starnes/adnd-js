@@ -1,16 +1,12 @@
 # Races of the Realm
 
 ## Human
-<div style="display: flex; align-items: center;">
 ![Scene with human female druid, male paladin, human male rogue](/images/race_humans02.png)
-    <p>
-        Humans are the most versatile race in the game. They can fit into any class or profession, and they have no natural strengths or weaknesses. They have a higher potential for experience points than any other race. In terms of attributes, humans receive no bonuses or negatives, but they have a bonus skill point at first level. 
+
+Humans are the most versatile race in the game. They can fit into any class or profession, and they have no natural strengths or weaknesses. They have a higher potential for experience points than any other race. In terms of attributes, humans receive no bonuses or negatives, but they have a bonus skill point at first level. 
 Human culture is diverse and varied, with many different kingdoms, empires, and cultures throughout the game world. Humans value individualism, ambition, and freedom. They are often the most widespread race in any given campaign setting, with different human cultures having their own customs, beliefs, and traditions.
 
 Recommended classes: Humans are well-suited to any class, but they make excellent fighters, rogues, and wizards.
-    </p>
-</div>
-
 
 ## Elf
 Elves are graceful and dexterous creatures, known for their long life spans and their mastery of archery. They have a natural resistance to sleep spells and are immune to paralysis. However, they have a lower constitution score and are vulnerable to iron weapons. 
