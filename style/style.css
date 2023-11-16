@@ -119,6 +119,22 @@ img {
     margin-right: 20px;
 }
 
+.content-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.section-image {
+    width: 30%; /* Set the width of the image */
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+/* Ensure the text wraps next to the image */
+.content-section > div {
+    width: 70%; /* Adjust the text container width */
+}
+
 footer {
     background-color: #241e45; /* #4B0082; /* indigo */
     color: #FFD700; /* gold */
