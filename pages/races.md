@@ -3,14 +3,15 @@
 <div id="human-race">
   <h2>Human</h2>
     Humans are the most versatile race in the game. They can fit into any class or profession, and they have no natural strengths or weaknesses. They have a higher potential for experience points than any other race. In terms of attributes, humans receive no bonuses or negatives, but they have a bonus skill point at first level. Human culture is diverse and varied, with many different kingdoms, empires, and cultures throughout the game world. Humans value individualism, ambition, and freedom. They are often the most widespread race in any given campaign setting, with different human cultures having their own customs, beliefs, and traditions.
-    Recommended classes: Humans are well-suited to any class, but they make excellent fighters, rogues, and wizards.
+  
+  Recommended classes: Humans are well-suited to any class, but they make excellent fighters, rogues, and wizards.
 </div>
 
 <div id="elf-race">
   <h2>Elves</h2> 
-  <p>
-    Elves are graceful and dexterous creatures, known for their long life spans and their mastery of archery. They have a natural resistance to sleep spells and are immune to paralysis. However, they have a lower constitution score and are vulnerable to iron weapons. Elves have a rich and sophisticated culture, with their own cities, traditions, and customs. They value beauty, art, and nature, and they often have a connection to the land. Elves can be haughty and aloof, but they are also loyal to their friends and allies. Recommended classes: Elves make excellent rangers, fighters, and wizards.
-  </p>
+    Elves are graceful and dexterous creatures, known for their long life spans and their mastery of archery. They have a natural resistance to sleep spells and are immune to paralysis. However, they have a lower constitution score and are vulnerable to iron weapons. Elves have a rich and sophisticated culture, with their own cities, traditions, and customs. They value beauty, art, and nature, and they often have a connection to the land. Elves can be haughty and aloof, but they are also loyal to their friends and allies. 
+  
+  Recommended classes: Elves make excellent rangers, fighters, and wizards.
 </div>
 
 <div id="dwarf-race">
