@@ -2,7 +2,7 @@
 
 ## Human
 <div style="display: flex; align-items: center;">
-![human female druid, male paladin, human male rogue](/images/race_humans02.png)
+![Scene with human female druid, male paladin, human male rogue](/images/race_humans02.png)
     <p>
         Humans are the most versatile race in the game. They can fit into any class or profession, and they have no natural strengths or weaknesses. They have a higher potential for experience points than any other race. In terms of attributes, humans receive no bonuses or negatives, but they have a bonus skill point at first level. 
 Human culture is diverse and varied, with many different kingdoms, empires, and cultures throughout the game world. Humans value individualism, ambition, and freedom. They are often the most widespread race in any given campaign setting, with different human cultures having their own customs, beliefs, and traditions.
