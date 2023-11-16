@@ -2,8 +2,6 @@
 
 ## Human
 
-images/race_humans02.png)
-
 <div style="display: flex; align-items: center;">
     <img src="https://jon-starnes.github.io/adnd-js/images/race_humans02.png" alt="human female druid, male paladin, human male rogue" style="width: 300px; margin-right: 30px;">
     <p>
