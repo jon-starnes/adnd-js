@@ -58,6 +58,22 @@
                     const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
         
                     let finalHtml = '';
+                    // flex placement of markdown text and images
+                    sections.forEach(section => {
+                        const sectionIdMatch = section.match(/<div id="(.*?)">/);
+                        if (sectionIdMatch) {
+                            const sectionId = sectionIdMatch[1];
+                            const imagePath = `/images/${sectionId}.jpg`;
+                    
+                            // Create a new div to wrap the image and the section
+                            finalHtml += `<div class="content-section">`;
+                            finalHtml += `<img src="${imagePath}" alt="${sectionId}" class="section-image">`;
+                            finalHtml += section;
+                            finalHtml += `</div>`;
+                        }
+                    });
+                    //
+                    /*
                     sections.forEach(section => {
                         // Extract the section id to construct the image filename
                         const sectionIdMatch = section.match(/<div id="(.*?)">/);
@@ -70,7 +86,7 @@
                         }
                         finalHtml += section;
                     });
-        
+                    */
                     markdownContainer.innerHTML = finalHtml;
                 })
                 .catch(error => console.error('Error fetching the Markdown file:', error));
