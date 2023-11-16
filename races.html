@@ -63,7 +63,7 @@
                         const sectionIdMatch = section.match(/<div id="(.*?)">/);
                         if (sectionIdMatch) {
                             const sectionId = sectionIdMatch[1];
-                            const imagePath = `pages/images/${sectionId}.jpg`;
+                            const imagePath = `/images/${sectionId}.jpg`;
         
                             // Add the image HTML before the section
                             finalHtml += `<img src="${imagePath}" alt="${sectionId}">`;
