@@ -49,6 +49,7 @@ So let's put it all together and align the morality axis with the lawfullness ax
 | **Neutral** | Lawful Neutral (LN) | True Neutral (TN) | Chaotic Neutral (CN) |
 | **Evil** | Lawful Evil (LE) | Neutral Evil (NE) | Chaotic Evil (CE) |
 
+
 - **Lawful Good (LG)**: Characters believe in order, systems, and doing the right thing. They uphold the law and work for the greater good.
 - **Neutral Good (NG)**: Characters do what's right, but not necessarily bound by rules or laws.
 - **Chaotic Good (CG)**: Characters value freedom and individuality but still aim to do good.
@@ -58,6 +59,7 @@ So let's put it all together and align the morality axis with the lawfullness ax
 - **Lawful Evil (LE)**: Characters believe in order and structure but use it for their selfish or malicious aims.
 - **Neutral Evil (NE)**: Characters are primarily selfish and will do whatever they can to get ahead, regardless of the means.
 - **Chaotic Evil (CE)**: Characters act with malice, hatred, and personal gain in mind, without regard for rules or order.
+
 
 In earlier editions of D&D, alignment had more mechanical implications, such as determining which classes a character could be or how certain spells affected them. In later editions, alignment is more of a role-playing tool, guiding character behavior and interactions without strict mechanical consequences.
 
