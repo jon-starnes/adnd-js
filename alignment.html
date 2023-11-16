@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon's Adventure Generator and D&D Player Guide: Character Classes</title>
+    <title>Jon's Adventure Generator and D&D Player Guide: Alignment</title>
     <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
-    
     <header>
         <h1 class="main-title">Jon's Adventure Generator and D&D Player Guide</h1>
-    
+        
         <!-- Add the nav element here -->
         <nav class="topbar-menu">
             <a href="index.html">Home</a>
@@ -21,9 +20,8 @@
         </nav>
         
     </header>
-    
     <div class="wrapper">
-    
+        
         <main>
             <div id="markdown-container"></div>
         </main>
@@ -38,7 +36,7 @@
     
     <script>
     document.addEventListener('DOMContentLoaded', () => {
-        fetch('pages/alignment.md')
+        fetch('pages/races.md')
             .then(response => response.text())
             .then(text => {
                 const markdownContainer = document.getElementById('markdown-container');
