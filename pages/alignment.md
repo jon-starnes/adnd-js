@@ -1,4 +1,4 @@
-### Guide on Character Alignment
+# Guide on Character Alignment
 
 Alignment in D&D represents a character's moral and ethical compass. It's a combination of two factors: one's attitude towards society and order (Lawful, Neutral, Chaotic) and one's moral compass (Good, Neutral, Evil).  
 
