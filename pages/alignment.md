@@ -1,8 +1,6 @@
 # Guide on Character Alignment
 
-Alignment in D&D represents a character's moral and ethical compass. It's a combination of two factors: one's attitude towards society and order (Lawful, Neutral, Chaotic) and one's moral compass (Good, Neutral, Evil).  
-
-Certainly! The alignment system in D&D can be broken down into two main axes: the Law-Chaos axis (lawfulness) and the Good-Evil axis (morality). Let's delve deeper into each axis to understand the nuances.
+Alignment in D&D represents a character's moral and ethical compass. It's a combination of two factors: one's attitude towards society and order (Lawful, Neutral, Chaotic) and one's moral compass (Good, Neutral, Evil). The alignment system in D&D can be broken down into two main axes: the Law-Chaos axis (lawfulness) and the Good-Evil axis (morality). Let's delve deeper into each axis to understand the nuances.
 
 ### Lawfulness (Law-Chaos Axis)
 
