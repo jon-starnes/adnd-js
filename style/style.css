@@ -2,13 +2,16 @@ header, main, footer {
     padding: 21px;
 }
 
+/* numbers to use: 
+0, 2, 2, 4, 6, 10, 16, 26, 42, 68, 110, 178, 288, 466 */
+
 header {
     background-color: #4B0082; /* indigo */
     color: #FFD700; /* gold */
     /* background-color: #8B4513; /* dark brown */
     /* color: #FAF0E6; /* light linen */ 
     /* background: #f4f4f4; */
-    border-bottom: 3px solid #ccc;
+    border-bottom: 4px solid #ccc;
 }
 
 /* Topbar Menu */
@@ -23,20 +26,20 @@ header {
 .topbar-menu a {
     /* Add your link styles here */
     /* display: block; */
-    padding: 3px;
+    padding: 4px;
     background-color: transparent; /* dark slate blue */
     color: #F5DEB3; /* wheat */
     text-decoration: none;
-    transition: text-shadow 0.3s ease;
+    transition: text-shadow 0.4s ease;
 }
 
 .topbar-menu a:hover {
-    text-shadow: 0 0 8px #FFD700, 0 0 13px #FFD700, 0 0 21px #FFD700, 0 0 34px #FFD700;
+    text-shadow: 0 0 6px #FFD700, 0 0 10px #FFD700, 0 0 16px #FFD700, 0 0 26px #FFD700;
 }
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.8;
+    line-height: 2;
     background-color: #241e45; /* darker slate blue /* #FBF8F2; /* less saturated warm light beige */
     /* color: #F5DEB3; /* wheat */
     color: #797979; /* less saturated dark gray */
@@ -53,7 +56,7 @@ body {
 
 .main-title {
     font-size: 2em;  /* Adjust the font size as needed */
-    margin-left: 34px;  /* Increase the left margin */
+    margin-left: 42px;  /* Increase the left margin */
 }
 
 .wrapper {
@@ -63,18 +66,18 @@ body {
     align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 21px;
-    padding-right: 21px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 h1 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 2;
+    margin-bottom: 2;
 }
 
 .sidemenu1 {
-    width: 21%;
-    min-width: 233px; /* The navigation menu will not become narrower than 200 pixels */
+    width: 16%;
+    min-width: 288px; /* The navigation menu will not become narrower than 200 pixels */
     background-color: #483D8B; /* dark slate blue */
     color: #F5DEB3; /* wheat */
     /* background-color: #A0522D; /* sienna */
@@ -84,12 +87,12 @@ h1 {
 
 .sidemenu1 ul {
     list-style: none;
-    padding: 13px;
+    padding: 10px;
 }
 
 .sidemenu1 ul li a {
     display: block;
-    padding: 13px;
+    padding: 10px;
     background-color: #483D8B; /* dark slate blue */
     color: #F5DEB3; /* wheat */
     /* color: #F5F5DC; /* beige */
@@ -101,38 +104,38 @@ h1 {
     /*background: #5a5096; */
     /*color: #F5DEB3; /* Floral white */
     /*color: #000; */
-    text-shadow: 0 0 8px #FFD700, 0 0 13px #FFD700, 0 0 21px #FFD700, 0 0 34px #FFD700;
+    text-shadow: 0 0 6px #FFD700, 0 0 10px #FFD700, 0 0 16px #FFD700, 0 0 26px #FFD700;
 }
 
 #markdown-container {
-    padding-top: 3%;
-    padding-right: 13%;
-    padding-bottom: 5%;
-    padding-left: 13%;
+    padding-top: 4%;
+    padding-right: 16%;
+    padding-bottom: 6%;
+    padding-left: 16%;
 }
 
 img {
     float: left;
-    margin-right: 21px;
+    margin-right: 26px;
 }
 
 .content-section {
-    padding-top: 3%;
+    padding-top: 4%;
     display: flex;
     align-items: flex-start;
-    margin-bottom: 21px; /* Adjust as needed */
+    margin-bottom: 26px; /* Adjust as needed */
 }
 
 .section-image {
-    padding-top: 3%;
-    margin-top: 21px;
-    margin-right: 21px; /* Space between the image and the text */
-    width: 34%; /* Set the width of the image */
+    padding-top: 2%;
+    margin-top: 10px;
+    margin-right: 16px; /* Space between the image and the text */
+    width: 42%; /* Set the width of the image */
 }
 
 /* Ensure the text wraps next to the image */
 .content-section > div {
-    width: 89%; /* Adjust the text container width */
+    width: 68%; /* Adjust the text container width */
 }
 
 footer {
@@ -140,7 +143,7 @@ footer {
     color: #FFD700; /* gold */
     /*background-color: #8B4513; /* dark brown */
     /*color: #FAF0E6; /* light linen */
-    border-top: 3px solid #ccc;
+    border-top: 2px solid #ccc;
     text-align: center;
 }
 
@@ -152,6 +155,6 @@ footer {
     align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 21px;
-    padding-right: 21px;
+    padding-left: 26px;
+    padding-right: 26px;
 }
