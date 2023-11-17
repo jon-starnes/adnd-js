@@ -126,13 +126,13 @@ img {
 .section-image {
     padding-top: 3%;
     margin-top: 21px;
-    margin-right: 21px; /* Space between the image and the text */
+    margin-right: 13px; /* Space between the image and the text */
     width: 55%; /* Set the width of the image */
 }
 
 /* Ensure the text wraps next to the image */
 .content-section > div {
-    width: 89%; /* Adjust the text container width */
+    width: 68%; /* Adjust the text container width */
 }
 
 footer {
