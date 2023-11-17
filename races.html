@@ -23,7 +23,6 @@
     <div class="wrapper">
         
         <main>
-            <h1 class="body">"Races of the Realm"</h1>
             <div id="markdown-container"></div>
         </main>
     
@@ -67,6 +66,7 @@
                             const imagePath = `pages/images/${sectionId}.jpg`;
                     
                             // Create a new div to wrap the image and the section
+                            final += '<h1 class="body">"Races of the Realm"</h1>';
                             finalHtml += `<div class="content-section">`;
                             finalHtml += `<img src="${imagePath}" alt="${sectionId}" class="section-image">`;
                             finalHtml += section;
