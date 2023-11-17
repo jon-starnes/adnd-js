@@ -132,7 +132,7 @@ img {
 
 /* Ensure the text wraps next to the image */
 .content-section > div {
-    width: 68%; /* Adjust the text container width */
+    width: 89%; /* Adjust the text container width */
 }
 
 footer {
