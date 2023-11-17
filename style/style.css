@@ -11,7 +11,6 @@ header {
     border-bottom: 3px solid #ccc;
 }
 
-
 /* Topbar Menu */
 .topbar-menu {
     display: flex;
@@ -31,11 +30,9 @@ header {
     transition: text-shadow 0.3s ease;
 }
 
-
 .topbar-menu a:hover {
     text-shadow: 0 0 8px #FFD700, 0 0 13px #FFD700, 0 0 21px #FFD700, 0 0 34px #FFD700;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -128,7 +125,7 @@ img {
 
 .section-image {
     padding-top: 3%;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-right: 20px; /* Space between the image and the text */
     width: 40%; /* Set the width of the image */
 }
