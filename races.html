@@ -58,13 +58,14 @@
                     let finalHtml = titleMatch ? titleMatch[0] : '';
         
                     // Process the rest of the content
-                    const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
+                    // ... [rest of the script]
+                    
                     sections.forEach(section => {
                         const sectionIdMatch = section.match(/<div id="(.*?)">/);
                         if (sectionIdMatch) {
                             const sectionId = sectionIdMatch[1];
                             const imagePath = `pages/images/${sectionId}.jpg`;
-        
+                    
                             // Create a new div to wrap the image and the section
                             finalHtml += `<div class="content-section">`;
                             finalHtml += `<img src="${imagePath}" alt="${sectionId}" class="section-image">`;
@@ -72,6 +73,8 @@
                             finalHtml += `</div>`;
                         }
                     });
+                    
+                    // ... [rest of the script]
         
                     markdownContainer.innerHTML = finalHtml;
                 })
