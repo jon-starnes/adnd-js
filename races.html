@@ -50,12 +50,13 @@
             fetch('pages/races.md')
                 .then(response => response.text())
                 .then(text => {
-                    const markdownContainer = document.getElementById('markdown-container');
-                    const convertedHtml = marked(text);
-        
-                    // Extract the h1 title
-                    const titleMatch = convertedHtml.match(/<h1>.*?<\/h1>/);
-                    let finalHtml = titleMatch ? titleMatch[0] : '';
+                const markdownContainer = document.getElementById('markdown-container');
+                const convertedHtml = marked(text);
+    
+                // Use a regular expression to match each div section
+                const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
+    
+                let finalHtml = '';
         
                     // Process the rest of the content
                     // ... [rest of the script]
