@@ -63,7 +63,9 @@
                     
                     sections.forEach(section => {
                         const sectionIdMatch = section.match(/<div id="(.*?)">/);
-                        if (sectionIdMatch && section.match(!/<h1="(.*?)">/)) {
+                        const sectionNameMatch = section.match(/<h2>(.*?)<\/h2>/);
+                        
+                        if (sectionIdMatch && sectionNameMatch) {
                             const sectionId = sectionIdMatch[1];
                             const imagePath = `pages/images/${sectionId}.jpg`;
                     
