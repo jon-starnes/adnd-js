@@ -58,11 +58,11 @@
     
                 let finalHtml = '';
         
-                    // Process the rest of the content
-                    // ... [rest of the script]
-                    const sectionNameMatch1 = section.match(/<h1>(.*?)<\/h1>/);
+                // Process the rest of the content
+                // ... [rest of the script]
+                const sectionNameMatch1 = section.match(/<h1>(.*?)<\/h1>/);
                     
-                    finalHtml += sectionNameMatch1
+                finalHtml += sectionNameMatch1
 
                     sections.forEach(section => {
                         const sectionIdMatch = section.match(/<div id="(.*?)">/);
