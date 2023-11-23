@@ -1,6 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon's Adventure Generator and D&D Player Guide: People and Races of the Realm</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Jon's Adventure Generator and D&D Player Guide</h1>
+        
+        <!-- Add the nav element here -->
+        <nav class="topbar-menu">
+            <a href="index.html">Home</a>
+            <a href="races.html">Races</a>
+            <a href="classes.html">Character Class</a>
+            <a href="alignment.html">Alignment</a>
+            <a href="character-creation.html">Character Creation</a>
+        </nav>
+        
+    </header>
+    <div class="wrapper">
+        
+        <main>
+            <div id="markdown-container"></div>
+        </main>
+    
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
+    
+    <footer>
+        <p>Copyright &copy; 2023 Jon Starnes</p>
+    </footer>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <!-- ... existing head content ... -->
 </head>
 <body>
@@ -9,26 +45,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
     
     <script>
+        // ... [rest of the script]
         document.addEventListener('DOMContentLoaded', () => {
             fetch('pages/races.md')
                 .then(response => response.text())
                 .then(text => {
-                    const markdownContainer = document.getElementById('markdown-container');
-                    const convertedHtml = marked(text);
-
-                    // Extract the h1 title
-                    const titleMatch = convertedHtml.match(/<h1>.*?<\/h1>/);
-                    let finalHtml = titleMatch ? titleMatch[0] : '';
-
-                    // Use a regular expression to match each div section
-                    const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
-
+                const markdownContainer = document.getElementById('markdown-container');
+                const convertedHtml = marked(text);
+    
+                // Use a regular expression to match each div section
+                const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
+    
+                let finalHtml = '';
+        
+                    // Process the rest of the content
+                    // ... [rest of the script]
+                    
                     sections.forEach(section => {
                         const sectionIdMatch = section.match(/<div id="(.*?)">/);
                         if (sectionIdMatch) {
                             const sectionId = sectionIdMatch[1];
                             const imagePath = `pages/images/${sectionId}.jpg`;
-
+                    
                             // Create a new div to wrap the image and the section
                             finalHtml += `<div class="content-section">`;
                             finalHtml += `<img src="${imagePath}" alt="${sectionId}" class="section-image">`;
@@ -36,12 +74,34 @@
                             finalHtml += `</div>`;
                         }
                     });
-
+                    
+                    // ... [rest of the script]
+        
                     markdownContainer.innerHTML = finalHtml;
                 })
                 .catch(error => console.error('Error fetching the Markdown file:', error));
         });
+
+                    //
+                    /*
+                    sections.forEach(section => {
+                        // Extract the section id to construct the image filename
+                        const sectionIdMatch = section.match(/<div id="(.*?)">/);
+                        if (sectionIdMatch) {
+                            const sectionId = sectionIdMatch[1];
+                            const imagePath = `/images/${sectionId}.jpg`;
+        
+                            // Add the image HTML before the section
+                            finalHtml += `<img src="${imagePath}" alt="${sectionId}">`;
+                        }
+                        finalHtml += section;
+                    }); */
+                    
+        // ... [rest of the script]
     </script>
+
+</body>
+</html>
 
 </body>
 </html>
