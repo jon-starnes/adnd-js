@@ -1,4 +1,6 @@
+<center>
 <h1>Races of the Realm</h1>
+</center>center>
 
 <div id="human-race">
   <h2>Human</h2>
