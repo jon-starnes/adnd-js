@@ -128,9 +128,9 @@ img {
 
 .section-image {
     padding-top: 10%;
-    margin-top: 26px;
-    margin-right: 42px; /* Space between the image and the text */
-    width: 42%; /* Set the width of the image */
+    margin-top: 16px;
+    margin-right: 26px; /* Space between the image and the text */
+    width: 68%; /* Set the width of the image */
 }
 
 /* Ensure the text wraps next to the image */
