@@ -1,6 +1,4 @@
-<div id="races">
-  <h1>Races of the Realm</h1>
-</div>
+<h1>Races of the Realm</h1>
 
 <div id="human-race">
   <h2>Human</h2>
