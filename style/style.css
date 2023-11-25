@@ -122,17 +122,17 @@ img {
 }
 
 .content-section {
-    padding-top: 3%;
+    padding-top: 2%;
     display: flex;
     align-items: flex-start;
     margin-bottom: 21px; /* Adjust as needed */
 }
 
 .section-image {
-    padding-top: 5%;
+    padding-top: 2%;
     margin-top: 13px;
     margin-right: 21px; /* Space between the image and the text */
-    width: 42%; /* Set the width of the image */
+    width: 55%; /* Set the width of the image */
 }
 
 /* Ensure the text wraps next to the image */
