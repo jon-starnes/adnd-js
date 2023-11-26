@@ -2,9 +2,8 @@
 
 <div id="human-race">
   <h2>Human</h2>
-    Humans are the most versatile race in the game. They can fit into any class or profession, and they have no natural strengths or weaknesses. They have a higher potential for experience points than any other race. In terms of attributes, humans receive no bonuses or negatives, but they have a bonus skill point at first level. Human culture is diverse and varied, with many different kingdoms, empires, and cultures throughout the game world. Humans value individualism, ambition, and freedom. They are often the most widespread race in any given campaign setting, with different human cultures having their own customs, beliefs, and traditions.
-  
-  Recommended classes: Humans are well-suited to any class, but they make excellent fighters, rogues, and wizards.
+    Humans, in the grand tapestry of fantasy realms akin to AD&D, are known for their diversity and resilience. On average, humans have balanced attributes, with no particular affinity or glaring weakness, allowing them the freedom to choose a wide range of professions. Humans are as varied in culture and behavior as the lands they inhabit. From the noble knights of sprawling kingdoms to the nomadic tribes in harsh deserts, each human society is a distinct symphony of traditions, values, and arts. Humans are often driven to achieve greatness quickly, which can make them ambitious and at times, impulsive.
+  Humans have no inherent special abilities or bonuses, their true strength lying in their versatility and ability to adapt. However, many game variants offer humans a bonus feat or a small increase to all their attributes to reflect their adaptive nature.
 </div>
 
 <div id="elf-race">
