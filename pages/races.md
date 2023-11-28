@@ -6,15 +6,15 @@
   Humans have no inherent special abilities or bonuses, their true strength lying in their versatility and ability to adapt. However, many game variants offer humans a bonus feat or a small increase to all their attributes to reflect their adaptive nature.
 </div>
 
-<div id="elf-race">
-  <h2>Elves</h2> 
+<div id="elven-race">
+  <h2>Elven</h2> 
     Elves are graceful and dexterous creatures, known for their long life spans and their mastery of archery. They have a natural resistance to sleep spells and are immune to paralysis. However, they have a lower constitution score and are vulnerable to iron weapons. Elves have a rich and sophisticated culture, with their own cities, traditions, and customs. They value beauty, art, and nature, and they often have a connection to the land. Elves can be haughty and aloof, but they are also loyal to their friends and allies. 
   
   Recommended classes: Elves make excellent rangers, fighters, and wizards.
 </div>
 
-<div id="dwarf-race">
-  <h2>Dwarves</h2>
+<div id="dwarven-race">
+  <h2>Dwarven</h2>
     
   Dwarves are short, stocky creatures known for their strength and endurance. They have a natural resistance to poison and magic, but they are vulnerable to spells that affect their minds. Dwarves have a proud and insular culture, preferring to live in underground fortresses and mines. They have their own language, traditions, and way of life. Dwarves value honor, loyalty, and craftsmanship. They are often gruff and stubborn, but they can be fierce defenders of their friends and allies.
   
@@ -28,7 +28,7 @@
   Recommended classes: Halflings make excellent thieves, fighters, and clerics.
 </div>
 
-<div id="halfelf-race">
+<div id="halfelven-race">
   <h2>Half-elven</h2> 
   Half-Elves are the offspring of humans and elves. They have some of the strengths of both races, but also some of the weaknesses. They have a natural resistance to sleep spells and are immune to paralysis, but they have a lower constitution score. Half-Elves have a varied cultural background, often living in human or elven communities. They can struggle with feelings of isolation and not fitting in. Half-Elves value their freedom, and they often seek out adventure and excitement.
   
@@ -43,11 +43,16 @@
 </div>
 
 <div id="gnome-race">
-  <h2>Gnomes</h2> 
+  <h2>Gnome</h2> 
   Gnomes are small and clever creatures, known for their ingenuity and their ability to create magical devices. They have a natural resistance to illusion spells, but they are vulnerable to fire spells. Gnomes have a unique and quirky culture, often living in their own small communities and sharing their technological discoveries with other races. They value intelligence, invention, and curiosity. Gnomes can be eccentric and unpredictable, but they are also loyal to their friends and allies.
   
   Recommended classes: Gnomes make excellent illusionists, thieves, and tinkers (a specialist class unique to the gnome race that focuses on inventing magical devices).
 </div>
+
+<div id="senrats-race">
+  <h2>Senrats</h2> 
+</div>
+
 
 ## Conclusion
 In conclusion, each race in AD&D 2nd edition has its own unique set of strengths and weaknesses, as well as its own cultural background. Players should choose a race that fits their desired play style and character concept, taking into account the recommended classes and attribute bonuses and negatives. Understanding the cultural background and ideals of each race can also help players develop their characters and bring the game world to life.
