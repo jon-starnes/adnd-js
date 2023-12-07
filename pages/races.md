@@ -37,9 +37,14 @@
 
 <div id="half-orc-race">
   <h2>Half-Orc</h2> 
-  Half-Orcs are the offspring of humans and orcs. They are physically strong, with a high strength score, but they have a lower intelligence and charisma score. Half-Orcs are often marginalized in society, living on the fringes of human or orc communities. They can struggle with feelings of alienation and rejection. Half-Orcs value strength, toughness, and endurance. They often face prejudice and discrimination due to their orcish heritage, which can lead them to become hardened and bitter. 
-  
-  Recommended classes: Half-Orcs make excellent fighters, barbarians, and rangers. Due to their lower intelligence and charisma score, they may struggle with classes that rely heavily on those attributes, such as wizards or paladins.
+### Professions and Class Affinity:
+Half-Orsinians excel in roles that require physical strength and endurance. They make exceptional warriors, guards, and scouts. Their innate resilience also makes them suitable for the roles of adventurers and explorers. Due to their primal instincts, they can also be effective druids or rangers.
+
+### Cultural Behaviors and Society:
+Half-Orsinians often live in semi-nomadic societies, valuing strength, honor, and family ties. They have a deep respect for nature and their ancestral traditions. Their communities are typically egalitarian, with leadership roles often determined by merit and prowess.
+
+### Class Restrictions:
+While there are no strict class restrictions, Half-Orsinians are less likely to be found in classes that require high levels of magical aptitude, such as wizards or sorcerers.
 </div>
 
 <div id="gnome-race">
