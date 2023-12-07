@@ -37,14 +37,9 @@
 
 <div id="half-orc-race">
   <h2>Half-Orc</h2> 
-### Professions and Class Affinity:
-Half-Orsinians excel in roles that require physical strength and endurance. They make exceptional warriors, guards, and scouts. Their innate resilience also makes them suitable for the roles of adventurers and explorers. Due to their primal instincts, they can also be effective druids or rangers.
-
-### Cultural Behaviors and Society:
-Half-Orsinians often live in semi-nomadic societies, valuing strength, honor, and family ties. They have a deep respect for nature and their ancestral traditions. Their communities are typically egalitarian, with leadership roles often determined by merit and prowess.
-
-### Class Restrictions:
-While there are no strict class restrictions, Half-Orsinians are less likely to be found in classes that require high levels of magical aptitude, such as wizards or sorcerers.
+  
+### Culture, Professions and Class Affinity:
+Half-Orsinians often live in semi-nomadic societies, valuing strength, honor, and family ties. They have a deep respect for nature and their ancestral traditions. Their communities are typically egalitarian, with leadership roles often determined by merit and prowess. Half-Orsinians excel in roles that require physical strength and endurance. They make exceptional warriors, guards, and scouts. Their innate resilience also makes them suitable for the roles of adventurers and explorers. Due to their primal instincts, they can also be effective druids or rangers. While there are no strict class restrictions, Half-Orsinians are less likely to be found in classes that require high levels of magical aptitude, such as wizards or sorcerers.
 </div>
 
 <div id="gnome-race">
