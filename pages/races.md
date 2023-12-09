@@ -2,55 +2,74 @@
 
 <div id="human-race">
   <h2>Human</h2>
-    Humans, in the grand tapestry of fantasy realms akin to AD&D, are known for their diversity and resilience. On average, humans have balanced attributes, with no particular affinity or glaring weakness, allowing them the freedom to choose a wide range of professions. Humans are as varied in culture and behavior as the lands they inhabit. From the noble knights of sprawling kingdoms to the nomadic tribes in harsh deserts, each human society is a distinct symphony of traditions, values, and arts. Humans are often driven to achieve greatness quickly, which can make them ambitious and at times, impulsive.
-  Humans have no inherent special abilities or bonuses, their true strength lying in their versatility and ability to adapt. However, many game variants offer humans a bonus feat or a small increase to all their attributes to reflect their adaptive nature.
+Humans in this realm are known for their versatility and adaptability. They may not possess the longevity or innate magical abilities of other races, but they make up for it with their quick learning and diverse skills. Humans are often found in a variety of roles, from scholars to warriors, due to their balanced attributes and innate curiosity. They are typically found living in diverse environments, from coastal areas to valleys, and have a culture rich in innovation and exploration.
+
+**Unique Bonus: Rapid Adaptation** - Humans gain extra skill points or an additional action with each level up, representing their capacity for rapid learning and adaptability.
+
+**Strategic Weakness: Shorter Lifespan** - Limits the accumulation of wisdom and experience compared to longer-lived races, which may affect certain long-term strategies or magical abilities.
 </div>
 
 <div id="elven-race">
   <h2>Elven</h2> 
-    Elves are graceful and dexterous creatures, known for their long life spans and their mastery of archery. They have a natural resistance to sleep spells and are immune to paralysis. However, they have a lower constitution score and are vulnerable to iron weapons. Elves have a rich and sophisticated culture, with their own cities, traditions, and customs. They value beauty, art, and nature, and they often have a connection to the land. Elves can be haughty and aloof, but they are also loyal to their friends and allies. 
-  
-  Recommended classes: Elves make excellent rangers, fighters, and wizards.
+Elves are ethereal beings, deeply connected to the natural and arcane worlds. Known for their slender builds, grace, and longevity, they often pursue paths as mages, scouts, or diplomats. Elves live in harmony with nature, often residing in ancient forests or serene glades. Their society is rich in art, magic, and tradition, with a deep respect for the history and lore of their ancestors.
+
+**Unique Bonus: Arcane Affinity** - Elves have a natural affinity for magic, granting them access to minor magical abilities or enhancements to their magical skills.
+
+**Strategic Weakness: Magic Sensitivity** - Their deep connection to magic makes them more vulnerable to certain types of magical attacks or enchantments.
 </div>
 
 <div id="dwarven-race">
   <h2>Dwarven</h2>
-    
-  Dwarves are short, stocky creatures known for their strength and endurance. They have a natural resistance to poison and magic, but they are vulnerable to spells that affect their minds. Dwarves have a proud and insular culture, preferring to live in underground fortresses and mines. They have their own language, traditions, and way of life. Dwarves value honor, loyalty, and craftsmanship. They are often gruff and stubborn, but they can be fierce defenders of their friends and allies.
-  
-  Recommended classes: Dwarves make excellent fighters, clerics, and thieves.
+Dwarves are renowned for their sturdiness and resilience, often seen as the embodiment of endurance. With a strong affinity for the mountains and the deep places of the earth, they are skilled miners and unmatched craftsmen, particularly in metalwork and stonemasonry. Dwarven societies are structured and traditional, valuing honor, clan loyalty, and the ancient ways. They prefer to live in underground cities or fortresses carved into mountains, often near valuable resources like gold, which they are adept at conserving and protecting.
+
+**Unique Bonus: Master Craftsmen** - Dwarves have an inherent skill in crafting, especially with metal and stone, granting them bonuses in related tasks and professions.
+
+**Strategic Weakness: Claustral Nature** - Their affinity for underground living and close-knit societies can lead to challenges in adapting to open environments and dealing with diverse cultures.
 </div>
 
 <div id="halfling-race">
   <h2>Halflings</h2> 
-  Halflings, also known as hobbits, are small and nimble creatures. They have a natural talent for thievery and are difficult to hit with missiles. However, they are physically weak and have a lower strength score. Halflings have a simple and peaceful culture, preferring to live in small communities and enjoying a good meal. They value family, friendship, and hospitality. Halflings are often cheerful and optimistic, but they can be fiercely protective of their homes and loved ones.
-  
-  Recommended classes: Halflings make excellent thieves, fighters, and clerics.
+Halflings are small in stature but immense in spirit, often displaying a jovial and optimistic outlook on life. They are known for their agility, stealth, and resourcefulness, making them excellent scouts, thieves, and adventurers. Halflings cherish community and comfort, usually residing in peaceful, pastoral lands like grasslands and rolling hills. Their societies are close-knit, with a strong emphasis on family and friendship. They enjoy simple pleasures and are known for their love of good food and cozy homes.
+
+**Unique Bonus: Luck of the Halflings** - Halflings have a natural propensity for luck, granting them advantages in situations where chance plays a part.
+
+**Strategic Weakness: Size Limitation** - Their small size, while advantageous in agility and stealth, can be a hindrance in situations requiring physical strength or intimidation.
 </div>
 
 <div id="halfelven-race">
   <h2>Half-elven</h2> 
-  Half-Elves are the offspring of humans and elves. They have some of the strengths of both races, but also some of the weaknesses. They have a natural resistance to sleep spells and are immune to paralysis, but they have a lower constitution score. Half-Elves have a varied cultural background, often living in human or elven communities. They can struggle with feelings of isolation and not fitting in. Half-Elves value their freedom, and they often seek out adventure and excitement.
-  
-  Recommended classes: Half-Elves make excellent rangers, fighters, and wizards.
+Half-Elves embody the grace of elves and the versatility of humans, often finding themselves at ease in both worlds yet fully belonging to neither. They tend to be adaptable, charismatic, and perceptive, qualities that make them natural diplomats, negotiators, and leaders. Half-Elves are usually drawn to professions that allow them to leverage their social skills and innate charm, such as bards, ambassadors, or spies. They often live in diverse environments, comfortably adapting to both human and elven societies.
+
+**Unique Bonus: Social Chameleon** - Half-Elves have an innate ability to understand and adapt to various cultures and social situations, giving them advantages in social interactions and diplomacy.
+
+**Strategic Weakness: Dual Heritage Dilemma** - Their mixed heritage sometimes leaves them culturally and emotionally torn between the human and elven worlds, which can lead to internal conflicts and identity crises.
 </div>
 
 <div id="half-orc-race">
   <h2>Half-Orc</h2> 
-  
-### Culture, Professions and Class Affinity:
-Half-Orsinians often live in semi-nomadic societies, valuing strength, honor, and family ties. They have a deep respect for nature and their ancestral traditions. Their communities are typically egalitarian, with leadership roles often determined by merit and prowess. Half-Orsinians excel in roles that require physical strength and endurance. They make exceptional warriors, guards, and scouts. Their innate resilience also makes them suitable for the roles of adventurers and explorers. Due to their primal instincts, they can also be effective druids or rangers. While there are no strict class restrictions, Half-Orsinians are less likely to be found in classes that require high levels of magical aptitude, such as wizards or sorcerers.
+Half-Orsinians are a compelling blend of human resilience and the robustness of their ancient Orsinian ancestors. They display a formidable presence, with muscular builds and a mix of human and Orsinian facial features, such as a pronounced brow ridge and square jaws. Despite their intimidating appearance, they possess a surprising adaptability and resourcefulness. Half-Orsinians often find themselves in roles that require physical strength and endurance, such as soldiers, laborers, or adventurers. Their societies tend to be egalitarian, with a strong emphasis on communal strength and survival skills.
+
+**Unique Bonus: Primal Resilience** - Half-Orsinians have enhanced physical endurance and a natural ability to withstand harsh conditions, thanks to their robust Orsinian heritage.
+
+**Strategic Weakness: Cultural Dichotomy** - Their mixed lineage can sometimes create challenges in fully integrating into either human or Orsinian societies, leading to potential identity conflicts or social hurdles.
 </div>
 
 <div id="gnome-race">
   <h2>Gnome</h2> 
-  Gnomes are small and clever creatures, known for their ingenuity and their ability to create magical devices. They have a natural resistance to illusion spells, but they are vulnerable to fire spells. Gnomes have a unique and quirky culture, often living in their own small communities and sharing their technological discoveries with other races. They value intelligence, invention, and curiosity. Gnomes can be eccentric and unpredictable, but they are also loyal to their friends and allies.
-  
-  Recommended classes: Gnomes make excellent illusionists, thieves, and tinkers (a specialist class unique to the gnome race that focuses on inventing magical devices).
+Gnomes are small but remarkably spirited and intelligent beings, thriving in worlds filled with wonder and invention. Their curiosity and inventiveness lead them to become skilled artisans, tinkerers, and mages. Gnomes have a natural affinity for magic, particularly in the realms of illusion and invention. They typically dwell in vibrant communities, often hidden within forests or hills, where their creativity can flourish. Their societies are usually democratic and egalitarian, with a strong emphasis on community, creativity, and collaboration.
+
+**Unique Bonus: Inventive Genius** - Gnomes possess an extraordinary talent for invention and problem-solving, granting them bonuses in tasks involving engineering, magic, and crafting.
+
+**Strategic Weakness: Physical Limitation** - Their small stature and limited physical strength can be a disadvantage in combat or other situations requiring brute force.
 </div>
 
 <div id="senrats-race">
-  <h2>Senrats</h2> 
+  <h2>Senrats</h2>
+The Senrats are an intriguing race, taller than Dwarves but shorter than both Humans and Elves. They exhibit a unique blend of features reminiscent of their tree shrew and flying lemur ancestors, adapted through a long evolutionary process. Agile and adept in navigating both forested and urban environments, they often take on roles as scouts, traders, or gatherers. The Senrats have developed their own language and social structures, living in small, tight-knit communities that are often nomadic or semi-settled, thriving on the edges of human civilizations.
+
+**Unique Bonus: Arboreal Agility** - With their evolutionary background, Senrats possess exceptional agility and balance, especially in forested or uneven terrains, giving them advantages in navigation and stealth in these environments.
+
+**Strategic Weakness: Social Ambiguity** - While adept at survival, their unique appearance and customs can sometimes lead to misunderstandings or mistrust in interactions with other races, especially in unfamiliar settings.
 </div>
 
 
