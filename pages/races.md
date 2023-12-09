@@ -2,7 +2,7 @@
 
 <div id="human-race">
   <h2>Human</h2>
-Humans in this realm are known for their versatility and adaptability. They may not possess the longevity or innate magical abilities of other races, but they make up for it with their quick learning and diverse skills. Humans are often found in a variety of roles, from scholars to warriors, due to their balanced attributes and innate curiosity. They are typically found living in diverse environments, from coastal areas to valleys, and have a culture rich in innovation and exploration.
+Humans in this realm are known for their versatility and adaptability. They may not possess the longevity or innate magical abilities of other races, but they make up for it with their quick learning and diverse skills. Humans are often found in a variety of roles, from scholars to warriors, due to their balanced attributes and innate curiosity. They are typically found living in diverse environments, from coastal areas to valleys, and have a culture rich in innovation and exploration.  
 
 **Unique Bonus: Rapid Adaptation** - Humans gain extra skill points or an additional action with each level up, representing their capacity for rapid learning and adaptability.
 
@@ -11,7 +11,7 @@ Humans in this realm are known for their versatility and adaptability. They may 
 
 <div id="elven-race">
   <h2>Elven</h2> 
-Elves are ethereal beings, deeply connected to the natural and arcane worlds. Known for their slender builds, grace, and longevity, they often pursue paths as mages, scouts, or diplomats. Elves live in harmony with nature, often residing in ancient forests or serene glades. Their society is rich in art, magic, and tradition, with a deep respect for the history and lore of their ancestors.
+Elves are ethereal beings, deeply connected to the natural and arcane worlds. Known for their slender builds, grace, and longevity, they often pursue paths as mages, scouts, or diplomats. Elves live in harmony with nature, often residing in ancient forests or serene glades. Their society is rich in art, magic, and tradition, with a deep respect for the history and lore of their ancestors.  
 
 **Unique Bonus: Arcane Affinity** - Elves have a natural affinity for magic, granting them access to minor magical abilities or enhancements to their magical skills.
 
@@ -20,7 +20,7 @@ Elves are ethereal beings, deeply connected to the natural and arcane worlds. Kn
 
 <div id="dwarven-race">
   <h2>Dwarven</h2>
-Dwarves are renowned for their sturdiness and resilience, often seen as the embodiment of endurance. With a strong affinity for the mountains and the deep places of the earth, they are skilled miners and unmatched craftsmen, particularly in metalwork and stonemasonry. Dwarven societies are structured and traditional, valuing honor, clan loyalty, and the ancient ways. They prefer to live in underground cities or fortresses carved into mountains, often near valuable resources like gold, which they are adept at conserving and protecting.
+Dwarves are renowned for their sturdiness and resilience, often seen as the embodiment of endurance. With a strong affinity for the mountains and the deep places of the earth, they are skilled miners and unmatched craftsmen, particularly in metalwork and stonemasonry. Dwarven societies are structured and traditional, valuing honor, clan loyalty, and the ancient ways. They prefer to live in underground cities or fortresses carved into mountains, often near valuable resources like gold, which they are adept at conserving and protecting.  
 
 **Unique Bonus: Master Craftsmen** - Dwarves have an inherent skill in crafting, especially with metal and stone, granting them bonuses in related tasks and professions.
 
@@ -29,7 +29,7 @@ Dwarves are renowned for their sturdiness and resilience, often seen as the embo
 
 <div id="halfling-race">
   <h2>Halflings</h2> 
-Halflings are small in stature but immense in spirit, often displaying a jovial and optimistic outlook on life. They are known for their agility, stealth, and resourcefulness, making them excellent scouts, thieves, and adventurers. Halflings cherish community and comfort, usually residing in peaceful, pastoral lands like grasslands and rolling hills. Their societies are close-knit, with a strong emphasis on family and friendship. They enjoy simple pleasures and are known for their love of good food and cozy homes.
+Halflings are small in stature but immense in spirit, often displaying a jovial and optimistic outlook on life. They are known for their agility, stealth, and resourcefulness, making them excellent scouts, thieves, and adventurers. Halflings cherish community and comfort, usually residing in peaceful, pastoral lands like grasslands and rolling hills. Their societies are close-knit, with a strong emphasis on family and friendship. They enjoy simple pleasures and are known for their love of good food and cozy homes.  
 
 **Unique Bonus: Luck of the Halflings** - Halflings have a natural propensity for luck, granting them advantages in situations where chance plays a part.
 
@@ -38,7 +38,7 @@ Halflings are small in stature but immense in spirit, often displaying a jovial 
 
 <div id="halfelven-race">
   <h2>Half-elven</h2> 
-Half-Elves embody the grace of elves and the versatility of humans, often finding themselves at ease in both worlds yet fully belonging to neither. They tend to be adaptable, charismatic, and perceptive, qualities that make them natural diplomats, negotiators, and leaders. Half-Elves are usually drawn to professions that allow them to leverage their social skills and innate charm, such as bards, ambassadors, or spies. They often live in diverse environments, comfortably adapting to both human and elven societies.
+Half-Elves embody the grace of elves and the versatility of humans, often finding themselves at ease in both worlds yet fully belonging to neither. They tend to be adaptable, charismatic, and perceptive, qualities that make them natural diplomats, negotiators, and leaders. Half-Elves are usually drawn to professions that allow them to leverage their social skills and innate charm, such as bards, ambassadors, or spies. They often live in diverse environments, comfortably adapting to both human and elven societies.  
 
 **Unique Bonus: Social Chameleon** - Half-Elves have an innate ability to understand and adapt to various cultures and social situations, giving them advantages in social interactions and diplomacy.
 
@@ -47,7 +47,7 @@ Half-Elves embody the grace of elves and the versatility of humans, often findin
 
 <div id="half-orc-race">
   <h2>Half-Orc</h2> 
-Half-Orsinians are a compelling blend of human resilience and the robustness of their ancient Orsinian ancestors. They display a formidable presence, with muscular builds and a mix of human and Orsinian facial features, such as a pronounced brow ridge and square jaws. Despite their intimidating appearance, they possess a surprising adaptability and resourcefulness. Half-Orsinians often find themselves in roles that require physical strength and endurance, such as soldiers, laborers, or adventurers. Their societies tend to be egalitarian, with a strong emphasis on communal strength and survival skills.
+Half-Orsinians are a compelling blend of human resilience and the robustness of their ancient Orsinian ancestors. They display a formidable presence, with muscular builds and a mix of human and Orsinian facial features, such as a pronounced brow ridge and square jaws. Despite their intimidating appearance, they possess a surprising adaptability and resourcefulness. Half-Orsinians often find themselves in roles that require physical strength and endurance, such as soldiers, laborers, or adventurers. Their societies tend to be egalitarian, with a strong emphasis on communal strength and survival skills.  
 
 **Unique Bonus: Primal Resilience** - Half-Orsinians have enhanced physical endurance and a natural ability to withstand harsh conditions, thanks to their robust Orsinian heritage.
 
@@ -56,7 +56,7 @@ Half-Orsinians are a compelling blend of human resilience and the robustness of 
 
 <div id="gnome-race">
   <h2>Gnome</h2> 
-Gnomes are small but remarkably spirited and intelligent beings, thriving in worlds filled with wonder and invention. Their curiosity and inventiveness lead them to become skilled artisans, tinkerers, and mages. Gnomes have a natural affinity for magic, particularly in the realms of illusion and invention. They typically dwell in vibrant communities, often hidden within forests or hills, where their creativity can flourish. Their societies are usually democratic and egalitarian, with a strong emphasis on community, creativity, and collaboration.
+Gnomes are small but remarkably spirited and intelligent beings, thriving in worlds filled with wonder and invention. Their curiosity and inventiveness lead them to become skilled artisans, tinkerers, and mages. Gnomes have a natural affinity for magic, particularly in the realms of illusion and invention. They typically dwell in vibrant communities, often hidden within forests or hills, where their creativity can flourish. Their societies are usually democratic and egalitarian, with a strong emphasis on community, creativity, and collaboration.  
 
 **Unique Bonus: Inventive Genius** - Gnomes possess an extraordinary talent for invention and problem-solving, granting them bonuses in tasks involving engineering, magic, and crafting.
 
@@ -65,7 +65,7 @@ Gnomes are small but remarkably spirited and intelligent beings, thriving in wor
 
 <div id="senrats-race">
   <h2>Senrats</h2>
-The Senrats are an intriguing race, taller than Dwarves but shorter than both Humans and Elves. They exhibit a unique blend of features reminiscent of their tree shrew and flying lemur ancestors, adapted through a long evolutionary process. Agile and adept in navigating both forested and urban environments, they often take on roles as scouts, traders, or gatherers. The Senrats have developed their own language and social structures, living in small, tight-knit communities that are often nomadic or semi-settled, thriving on the edges of human civilizations.
+The Senrats are an intriguing race, taller than Dwarves but shorter than both Humans and Elves. They exhibit a unique blend of features reminiscent of their tree shrew and flying lemur ancestors, adapted through a long evolutionary process. Agile and adept in navigating both forested and urban environments, they often take on roles as scouts, traders, or gatherers. The Senrats have developed their own language and social structures, living in small, tight-knit communities that are often nomadic or semi-settled, thriving on the edges of human civilizations.  
 
 **Unique Bonus: Arboreal Agility** - With their evolutionary background, Senrats possess exceptional agility and balance, especially in forested or uneven terrains, giving them advantages in navigation and stealth in these environments.
 
