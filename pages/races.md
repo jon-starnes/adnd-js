@@ -47,7 +47,7 @@ Half-Elves embody the grace of elves and the versatility of humans, often findin
 
 <div id="half-orc-race">
   <h2>Half-Orc</h2> 
-Half-Orsinians are a compelling blend of human resilience and the robustness of their ancient Orsinian ancestors. They display a formidable presence, with muscular builds and a mix of human and Orsinian facial features, such as a pronounced brow ridge and square jaws. Despite their intimidating appearance, they possess a surprising adaptability and resourcefulness. Half-Orsinians often find themselves in roles that require physical strength and endurance, such as soldiers, laborers, or adventurers. Their societies tend to be egalitarian, with a strong emphasis on communal strength and survival skills.  
+Half-Orsinians are a compelling blend of human resilience and the robustness of their ancient Orsinian ancestors. They display a formidable presence, with muscular builds and a mix of human and Orsinian physical traits like longer arm span. Despite their intimidating appearance, they possess a surprising adaptability and resourcefulness. Half-Orsinians often find themselves in roles that require physical strength and endurance, such as soldiers, laborers, or adventurers. Their societies tend to be egalitarian, with a strong emphasis on communal strength and survival skills.  
 
 **Unique Bonus: Primal Resilience** - Half-Orsinians have enhanced physical endurance and a natural ability to withstand harsh conditions, thanks to their robust Orsinian heritage.
 
