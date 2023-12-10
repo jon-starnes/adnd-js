@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon's Adventure Generator and D&D Player Guide: People and Races of the Realm</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css" />
-</head>
-<body>
-    <header>
-        <h1 class="main-title">Jon's Adventure Generator and D&D Player Guide</h1>
-        
-        <!-- Add the nav element here -->
-        <nav class="topbar-menu">
-            <a href="index.html">Home</a>
-            <a href="races.html">Races</a>
-            <a href="classes.html">Character Class</a>
-            <a href="alignment.html">Alignment</a>
-            <a href="character-creation.html">Character Creation</a>
-        </nav>
-        
-    </header>
-    <div class="wrapper">
-        
-        <main>
-            <div id="markdown-container"></div>
-        </main>
-    
-    </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
-    
-    <footer>
-        <p>Copyright &copy; 2023 Jon Starnes</p>
-    </footer>
-    
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,49 +6,61 @@
 </head>
 <body>
     <!-- ... existing body content ... -->
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                fetch('pages/races.md')
-                    .then(response => response.text())
-                    .then(text => {
-                        const markdownContainer = document.getElementById('markdown-container');
-                        const convertedHtml = marked(text);
-    
-                        // Extract the h1 title
-                        const titleMatch = convertedHtml.match(/<h1>.*?<\/h1>/);
-                        let finalHtml = titleMatch ? titleMatch[0] : '';
-    
-                        // Use a regular expression to match each div section
-                        const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
-    
-                        sections.forEach(section => {
-                            const sectionIdMatch = section.match(/<div id="(.*?)">/);
-                            if (sectionIdMatch) {
-                                const sectionId = sectionIdMatch[1];
-                                const imagePath = `pages/images/${sectionId}.jpg`;
-    
-                                // Create a new div to wrap the image and the section
-                                finalHtml += `<div class="content-section">`;
-                                finalHtml += `<img src="${imagePath}" alt="${sectionId}" class="section-image">`;
-                                finalHtml += section;
-                                finalHtml += `</div>`;
 
-                                // Extract bold text from markdown
-                                const boldTextMatch = text.match(/\*\*(.*?)\*\*/);
-                                let boldText = boldTextMatch ? boldTextMatch[1] : '';
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('pages/races.md')
+                .then(response => response.text())
+                .then(text => {
+                    const markdownContainer = document.getElementById('markdown-container');
+                    const convertedHtml = marked(text);
+                    let finalHtml = '';
 
-                                // Add your extra container here with the bold text
-                                finalHtml += `<div class="extra-container">${boldText}</div>`;
-                            }
-                        });
-    
-                        markdownContainer.innerHTML = finalHtml;
-                    })
-                    .catch(error => console.error('Error fetching the Markdown file:', error));
-            });
-        </script>
+                    // Use a regular expression to match each div section
+                    const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
+
+                    sections.forEach(section => {
+                        const sectionIdMatch = section.match(/<div id="(.*?)">/);
+                        if (sectionIdMatch) {
+                            const sectionId = sectionIdMatch[1];
+                            const imagePath = `pages/images/${sectionId}.jpg`;
+
+                            // Create a new div to wrap the image and the section
+                            finalHtml += `<div class="content-section">`;
+                            finalHtml += `<img src="${imagePath}" alt="${sectionId}" class="section-image">`;
+                            finalHtml += section;
+
+                            // Add the Unique Modifiers section
+                            const uniqueModifiersContent = getUniqueModifiersContent(section, sectionId);
+                            finalHtml += `<div class="unique-modifiers">${uniqueModifiersContent}</div>`;
+
+                            finalHtml += `</div>`;
+                        }
+                    });
+
+                    markdownContainer.innerHTML = finalHtml;
+                })
+                .catch(error => console.error('Error fetching the Markdown file:', error));
+        });
+
+        // Function to get unique modifiers content
+        function getUniqueModifiersContent(sectionHtml, sectionId) {
+            // Use a regular expression to match the text between <h3> and </h3>
+            const h3Match = sectionHtml.match(/<h3>(.*?)<\/h3>/);
+            // If there is a match, return the <h3> tag and its content
+            if (h3Match) {
+                return `<h3>Unique Modifiers for ${sectionId}</h3><p>${h3Match[1]}</p>`;
+            }
+            // Otherwise, return an empty string or a default message
+            else {
+                return `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
+            }
+        }
+    </script>
+
+</body>
+</html>
 
     <!--         <script>
             document.addEventListener('DOMContentLoaded', () => {
