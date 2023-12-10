@@ -78,19 +78,6 @@
                 }
         });
 
-        // Function to get unique modifiers content
-        function getUniqueModifiersContent(sectionHtml, sectionId) {
-            // Use a regular expression to match the text between <h3> and </h3>
-            const h3Match = sectionHtml.match(/<h3>(.*?)<\/h3>/);
-            // If there is a match, return the <h3> tag and its content
-            if (h3Match) {
-                return `<h3>Unique Modifiers for ${sectionId}</h3><p>${h3Match[1]}</p>`;
-            }
-            // Otherwise, return an empty string or a default message
-            else {
-                return `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
-            }
-        }
     </script>
     <footer>
         <p>Copyright &copy; 2023 Jon Starnes</p>
