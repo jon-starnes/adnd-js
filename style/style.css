@@ -121,6 +121,8 @@ img {
     margin-right: 21px;
 }
 
+
+/* Begin Content Section */
 .content-section {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -150,6 +152,8 @@ img {
     margin-right: 34px; /* Space between the image and the text */
     width: 34%; /* Set the width of the image */
 }
+/* End Content Section */
+
 
 /* Ensure the text wraps next to the image 
 .content-section > div {
