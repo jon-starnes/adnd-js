@@ -69,6 +69,13 @@
                                 finalHtml += `<img src="${imagePath}" alt="${sectionId}" class="section-image">`;
                                 finalHtml += section;
                                 finalHtml += `</div>`;
+
+                                // Extract bold text from markdown
+                                const boldTextMatch = text.match(/\*\*(.*?)\*\*/);
+                                let boldText = boldTextMatch ? boldTextMatch[1] : '';
+
+                                // Add your extra container here with the bold text
+                                finalHtml += `<div class="extra-container">${boldText}</div>`;
                             }
                         });
     
