@@ -28,57 +28,56 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        fetch('pages/races.md')
-            .then(response => response.text())
-            .then(text => {
-                const markdownContainer = document.getElementById('markdown-container');
-                const convertedHtml = marked(text);
-                let finalHtml = '';
-    
-                // Use a regular expression to match each div section
-                const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
-    
-                sections.forEach(section => {
-                    const sectionIdMatch = section.match(/<div id="(.*?)">/);
-                    if (sectionIdMatch) {
-                        const sectionId = sectionIdMatch[1];
-                        const imagePath = `pages/images/${sectionId}.jpg`;
-    
-                        // Create a new div to wrap the image, the section text, and the unique modifiers
-                        finalHtml += `<div class="content-section">`;
-                        finalHtml += `<div class="section-image-container"><img src="${imagePath}" alt="${sectionId}" class="section-image"></div>`;
-                        finalHtml += `<div class="section-text">${section}</div>`;
-    
-                        // Add the Unique Modifiers section
-                        const uniqueModifiersContent = getUniqueModifiersContent(section, sectionId);
-                        finalHtml += `<div class="unique-modifiers">${uniqueModifiersContent}</div>`;
-    
-                        finalHtml += `</div>`;
-                    }
-                });
-
-            markdownContainer.innerHTML = finalHtml;
-            })
-            .catch(error => console.error('Error fetching the Markdown file:', error));
-            });
-                
-                // Function to get unique modifiers content
-                function getUniqueModifiersContent(sectionHtml, sectionId) {
-                    // Use a regular expression to match the text between <h3> and </h3>
-                    const h3Match = sectionHtml.match(/<h3>(.*?)<\/h3>/);
-                    // If there is a match, return the <h3> tag and its content
-                    if (h3Match) {
-                        return `<h3>Unique Modifiers for ${sectionId}</h3><p>${h3Match[1]}</p>`;
-                    }
-                    // Otherwise, return an empty string or a default message
-                    else {
-                        return `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
-                    }
-                }
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('pages/races.md')
+                .then(response => response.text())
+                .then(text => {
+                    const markdownContainer = document.getElementById('markdown-container');
+                    const convertedHtml = marked(text);
+                    let finalHtml = '';
+        
+                    // Use a regular expression to match each div section
+                    const sections = convertedHtml.match(/<div id=".*?">.*?<\/div>/gs);
+        
+                    sections.forEach(section => {
+                        const sectionIdMatch = section.match(/<div id="(.*?)">/);
+                        if (sectionIdMatch) {
+                            const sectionId = sectionIdMatch[1];
+                            const imagePath = `pages/images/${sectionId}.jpg`;
+        
+                            // Create a new div to wrap the image, the section text, and the unique modifiers
+                            finalHtml += `<div class="content-section">`;
+                            finalHtml += `<div class="section-image-container"><img src="${imagePath}" alt="${sectionId}" class="section-image"></div>`;
+                            finalHtml += `<div class="section-text">${section}</div>`;
+        
+                            // Add the Unique Modifiers section
+                            const uniqueModifiersContent = getUniqueModifiersContent(section, sectionId);
+                            finalHtml += `<div class="unique-modifiers">${uniqueModifiersContent}</div>`;
+        
+                            finalHtml += `</div>`;
+                        }
+                    });
+        
+                    markdownContainer.innerHTML = finalHtml;
+                })
+                .catch(error => console.error('Error fetching the Markdown file:', error));
         });
-
+        
+        // Function to get unique modifiers content
+        function getUniqueModifiersContent(sectionHtml, sectionId) {
+            // Use a regular expression to match the text between <h3> and </h3>
+            const h3Match = sectionHtml.match(/<h3>(.*?)<\/h3>/);
+            // If there is a match, return the <h3> tag and its content
+            if (h3Match) {
+                return `<h3>Unique Modifiers for ${sectionId}</h3><p>${h3Match[1]}</p>`;
+            }
+            // Otherwise, return an empty string or a default message
+            else {
+                return `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
+            }
+        }
     </script>
+    
     <footer>
         <p>Copyright &copy; 2023 Jon Starnes</p>
     </footer>
