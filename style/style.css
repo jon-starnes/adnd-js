@@ -122,18 +122,28 @@ img {
 }
 
 .content-section {
-    padding-top: 2%;
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 21px; /* Adjust as needed */
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    width: 100%; /* Adjust as needed */
 }
 
 .section-image {
+    max-width: 100%; /* Ensures the image is not wider than the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.unique-modifiers {
+    width: 100%; /* Adjust as needed */
+    /* Additional styling for the unique modifiers section */
+}
+
+/*.section-image {
     padding-top: 3%;
     margin-top: 13px;
     margin-right: 34px; /* Space between the image and the text */
-    width: 55%; /* Set the width of the image */
-}
+    /*width: 55%; /* Set the width of the image */
+/*} */
 
 /* Ensure the text wraps next to the image */
 .content-section > div {
