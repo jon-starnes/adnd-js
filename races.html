@@ -2,12 +2,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ... existing head content ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon's Adventure Generator and D&D Player Guide: Character Classes</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
-    <!-- ... existing body content ... -->
+        <header>
+        <h1 class="main-title">Jon's Adventure Generator and D&D Player Guide</h1>
+    
+        <!-- Add the nav element here -->
+        <nav class="topbar-menu">
+            <a href="index.html">Home</a>
+            <a href="races.html">Races</a>
+            <a href="classes.html">Character Class</a>
+            <a href="alignment.html">Alignment</a>
+            <a href="character-creation.html">Character Creation</a>
+        </nav>
+        
+    </header>
+    
+    <div class="wrapper">
+    
+        <main>
+            <div id="markdown-container"></div>
+        </main>
+    
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
+
+    <footer>
+        <p>Copyright &copy; 2023 Jon Starnes</p>
+    </footer>
+    
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             fetch('pages/races.md')
