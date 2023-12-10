@@ -74,11 +74,11 @@
 
         // Function to get unique modifiers content
         function getUniqueModifiersContent(sectionHtml, sectionId) {
-            // Use a regular expression to match the text between <h3> and </h3>
-            const h3Match = sectionHtml.match(/<h3>(.*?)<\/h3>/);
+            // Use a regular expression to match the <h3> tag and the following content
+            const h3Match = sectionHtml.match(/<h3>Unique Modifiers<\/h3>([\s\S]*?)(?=<h3>|<\/div>)/i);
             // If there is a match, return the <h3> tag and its content
             if (h3Match) {
-                return `<h3>Unique Modifiers for ${sectionId}</h3><p>${h3Match[1]}</p>`;
+                return `<h3>Unique Modifiers for ${sectionId}</h3>${h3Match[1]}`;
             }
             // Otherwise, return an empty string or a default message
             else {
