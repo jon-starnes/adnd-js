@@ -123,6 +123,7 @@ img {
 
 
 /* Begin Content Section */
+
 .content-section {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -143,7 +144,7 @@ img {
 
 .unique-modifiers {
     grid-area: modifiers;
-    width: 55%; /* Ensures it takes the full width */
+    width: 100%; /* Ensures it takes the full width */
 }
 
 .section-image {
