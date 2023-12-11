@@ -130,7 +130,7 @@ img {
         "image text"
         "modifiers modifiers"; /* Grid areas */
     gap: 8px; /* Adjust as needed */
-    margin-bottom: 21px; /* Adjust as needed */
+    margin-bottom: 13px; /* Adjust as needed */
 }
 
 .section-image-container {
@@ -143,14 +143,14 @@ img {
 
 .unique-modifiers {
     grid-area: modifiers;
-    width: 100%; /* Ensures it takes the full width */
+    width: 55%; /* Ensures it takes the full width */
 }
 
 .section-image {
     padding-top: 3%;
     margin-top: 8px;
     margin-right: 21px; /* Space between the image and the text */
-    width: 34%; /* Set the width of the image */
+    width: 55%; /* Set the width of the image */
 }
 /* End Content Section */
 
