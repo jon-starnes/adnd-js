@@ -126,7 +126,7 @@ img {
 
 .content-section {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-columns: 2fr 3fr; /* Two equal columns */
     grid-template-areas: 
         "image text"
         "modifiers modifiers"; /* Grid areas */
@@ -151,7 +151,8 @@ img {
     padding-top: 3%;
     margin-top: 8px;
     margin-right: 21px; /* Space between the image and the text */
-    width: 55%; /* Set the width of the image */
+    width: 34%; /* Set the width of the image */
+    height: auto;
 }
 /* End Content Section */
 
