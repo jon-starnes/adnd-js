@@ -45,15 +45,16 @@
                             const sectionId = sectionIdMatch[1];
                             const imagePath = `pages/images/${sectionId}.jpg`;
         
+                            // Split the section content at the <h3> tag
+                            const sectionParts = section.split(/(<h3>Unique Modifiers<\/h3>)/i);
+                            const sectionText = sectionParts[0]; // Content before <h3>
+                            const uniqueModifiersContent = sectionParts.length > 1 ? sectionParts.slice(1).join('') : `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
+        
                             // Create a new div to wrap the image, the section text, and the unique modifiers
                             finalHtml += `<div class="content-section">`;
                             finalHtml += `<div class="section-image-container"><img src="${imagePath}" alt="${sectionId}" class="section-image"></div>`;
-                            finalHtml += `<div class="section-text">${section}</div>`;
-        
-                            // Add the Unique Modifiers section
-                            const uniqueModifiersContent = getUniqueModifiersContent(section, sectionId);
+                            finalHtml += `<div class="section-text">${sectionText}</div>`;
                             finalHtml += `<div class="unique-modifiers">${uniqueModifiersContent}</div>`;
-        
                             finalHtml += `</div>`;
                         }
                     });
