@@ -63,20 +63,18 @@
                 })
                 .catch(error => console.error('Error fetching the Markdown file:', error));
         });
-
-        
-            function getUniqueModifiersContent(sectionHtml, sectionId) {
-                // Use a regular expression to match the <h3> tag and the following content
-                const modifiersMatch = sectionHtml.match(/<h3>Unique Modifiers<\/h3>([\s\S]*?)(?=<h3>|<\/div>)/i);
-                // If there is a match, return the <h3> tag and its content
-                if (modifiersMatch) {
-                    return `<div class="unique-modifiers-content">${modifiersMatch[0]}</div>`;
-                }
-                // Otherwise, return an empty string or a default message
-                else {
-                    return `<div class="unique-modifiers-content"><h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p></div>`;
-                }
+        function getUniqueModifiersContent(sectionHtml, sectionId) {
+            // Use a regular expression to match the <h3> tag and the following content
+            const modifiersMatch = sectionHtml.match(/<h3>Unique Modifiers<\/h3>([\s\S]*?)(?=<h3>|<\/div>)/i);
+            // If there is a match, return the <h3> tag and its content
+            if (modifiersMatch) {
+                return `<div class="unique-modifiers-content">${modifiersMatch[0]}</div>`;
             }
+            // Otherwise, return an empty string or a default message
+            else {
+                return `<div class="unique-modifiers-content"><h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p></div>`;
+            }
+        }
     </script>
     
     <footer>
