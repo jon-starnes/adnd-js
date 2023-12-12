@@ -126,37 +126,36 @@ img {
 
 .content-section {
     display: grid;
-    grid-template-columns: 2fr 2fr; /* Two equal columns */
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
     grid-template-rows: auto auto; /* Two rows, height adjusts to content */
     grid-template-areas: 
         "image text"
-        "modifiers text"; /* Grid areas */
+        "modifiers modifiers"; /* Grid areas */
     gap: 8px; /* Adjust as needed */
     margin-bottom: 13px; /* Adjust as needed */
 }
 
 .section-image-container {
     grid-area: image;
-    /* Adjust padding and margin as needed */
-    padding-top: 3%;
-    margin-top: 8px;
-    margin-right: 21px; /* Space between the image and the text */
+    /* Additional styling for the image container */
 }
 
 .section-text {
     grid-area: text;
-    width: 100%;
+    /* Additional styling for the text section */
 }
 
 .unique-modifiers {
     grid-area: modifiers;
-    width: 100%; /* Ensures it takes the full width */
+    width: 100%; /* Ensures it takes the full width of the grid area */
+    /* Additional styling for the unique modifiers section */
 }
 
 .section-image {
-    width: 100%; /* Set the width of the image */
-    height: auto;
+    width: 100%; /* Adjust the width of the image as needed */
+    height: auto; /* Maintains aspect ratio */
 }
+
 /* End Content Section */
 
 
