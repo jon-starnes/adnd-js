@@ -126,7 +126,7 @@ img {
 
 .content-section {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-columns: 2fr 2fr; /* Two equal columns */
     grid-template-rows: auto auto; /* Two rows, height adjusts to content */
     grid-template-areas: 
         "image text"
@@ -145,7 +145,7 @@ img {
 
 .section-text {
     grid-area: text;
-    width: 50%;
+    width: 100%;
 }
 
 .unique-modifiers {
