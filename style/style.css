@@ -126,20 +126,26 @@ img {
 
 .content-section {
     display: grid;
-    grid-template-columns: 2fr 2fr; /* Two equal columns */
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: auto auto; /* Two rows, height adjusts to content */
     grid-template-areas: 
         "image text"
-        "modifiers modifiers"; /* Grid areas */
+        "modifiers text"; /* Grid areas */
     gap: 8px; /* Adjust as needed */
     margin-bottom: 13px; /* Adjust as needed */
 }
 
 .section-image-container {
     grid-area: image;
+    /* Adjust padding and margin as needed */
+    padding-top: 3%;
+    margin-top: 8px;
+    margin-right: 21px; /* Space between the image and the text */
 }
 
 .section-text {
     grid-area: text;
+    width: 50%;
 }
 
 .unique-modifiers {
@@ -148,10 +154,7 @@ img {
 }
 
 .section-image {
-    padding-top: 3%;
-    margin-top: 8px;
-    margin-right: 21px; /* Space between the image and the text */
-    width: 89%; /* Set the width of the image */
+    width: 100%; /* Set the width of the image */
     height: auto;
 }
 /* End Content Section */
