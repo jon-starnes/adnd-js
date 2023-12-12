@@ -126,7 +126,7 @@ img {
 
 .content-section {
     display: grid;
-    grid-template-columns: 2fr 3fr; /* Two equal columns */
+    grid-template-columns: 3fr 2fr; /* Two equal columns */
     grid-template-areas: 
         "image text"
         "modifiers modifiers"; /* Grid areas */
