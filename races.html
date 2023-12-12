@@ -45,19 +45,10 @@
                             const sectionId = sectionIdMatch[1];
                             const imagePath = `pages/images/${sectionId}.jpg`;
         
-                            // Find the index where <h3>Unique Modifiers</h3> starts
-                            const modifiersStartIndex = section.indexOf('<h3>Unique Modifiers</h3>');
-                            let sectionText, uniqueModifiersContent;
-        
-                            if (modifiersStartIndex !== -1) {
-                                // Split the content at the found index
-                                sectionText = section.substring(0, modifiersStartIndex);
-                                uniqueModifiersContent = section.substring(modifiersStartIndex);
-                            } else {
-                                // If <h3> tag not found, use the whole section as sectionText
-                                sectionText = section;
-                                uniqueModifiersContent = `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
-                            }
+                            // Split the section content at the <h3> tag
+                            const sectionParts = section.split(/(<h3>Unique Modifiers<\/h3>)/i);
+                            const sectionText = sectionParts[0]; // Content before <h3>
+                            const uniqueModifiersContent = sectionParts.length > 1 ? sectionParts.slice(1).join('') : `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
         
                             // Create a new div to wrap the image, the section text, and the unique modifiers
                             finalHtml += `<div class="content-section">`;
@@ -72,7 +63,6 @@
                 })
                 .catch(error => console.error('Error fetching the Markdown file:', error));
         });
-
         
             function getUniqueModifiersContent(sectionHtml, sectionId) {
                 // Use a regular expression to match the <h3> tag and the following content
