@@ -45,10 +45,10 @@
                             const sectionId = sectionIdMatch[1];
                             const imagePath = `pages/images/${sectionId}.jpg`;
         
-                            // Split the section content at the <h3>Unique Modifiers</h3> tag
-                            const sectionParts = section.split(/(<h3>Unique Modifiers<\/h3>)/i);
-                            const sectionText = sectionParts[0]; // Content before <h3>
-                            const uniqueModifiersContent = sectionParts.length > 1 ? sectionParts.slice(1).join('') : `<h3>Unique Modifiers for ${sectionId}</h3><p>No unique modifiers available.</p>`;
+                            // Split the section content at the <h2> and <h3> tags
+                            const firstSplit = section.split(/(<h2>.*?<\/h2>)/s);
+                            const sectionText = firstSplit.length > 1 ? firstSplit[1] + firstSplit[2].split(/(<h3>.*<\/h3>)/s)[0] : '';
+                            const uniqueModifiersContent = firstSplit.length > 1 ? firstSplit[2].split(/(<h3>.*<\/h3>)/s)[1] + firstSplit[2].split(/(<h3>.*<\/h3>)/s)[2] : '';
         
                             // Create a new div to wrap the image, the section text, and the unique modifiers
                             finalHtml += `<div class="content-section">`;
@@ -63,6 +63,7 @@
                 })
                 .catch(error => console.error('Error fetching the Markdown file:', error));
         });
+
 
         function getUniqueModifiersContent(sectionHtml, sectionId) {
             // Use a regular expression to match the <h3> tag and the following content
