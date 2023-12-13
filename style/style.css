@@ -146,7 +146,7 @@ img {
 
 .section-text {
     grid-area: text;
-    padding-left: 13%;
+    padding-left: 3%;
     /* Additional styling for the text section */
 }
 
@@ -154,13 +154,12 @@ img {
     grid-area: modifiers;
     width: 100%; /* Ensures it takes the full width of the grid area */
     /* Additional styling for the unique modifiers section */
-    padding-bottom: 3%;
 }
 
 .section-image {
     width: 100%; /* Adjust the width of the image as needed */
     height: auto; /* Maintains aspect ratio */
-    padding-right: 13%;
+    padding-right: 3%;
     padding-bottom: 3%;
 }
 
