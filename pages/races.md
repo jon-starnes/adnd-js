@@ -6,7 +6,6 @@ Humans in this realm are known for their versatility and adaptability. They may 
 
 <h3>Unique Modifiers</h3>
 **Bonus: Rapid Adaptation** - Humans gain extra skill points or an additional action with each level up, representing their capacity for rapid learning and adaptability.
-
 **Strategic Weakness: Shorter Lifespan** - Limits the accumulation of wisdom and experience compared to longer-lived races, which may affect certain long-term strategies or magical abilities.
 </div>
 
@@ -16,7 +15,6 @@ Elves are ethereal beings, deeply connected to the natural and arcane worlds. Kn
 
 <h3>Unique Modifiers</h3>
 **Unique Bonus: Arcane Affinity** - Elves have a natural affinity for magic, granting them access to minor magical abilities or enhancements to their magical skills.
-
 **Strategic Weakness: Magic Sensitivity** - Their deep connection to magic makes them more vulnerable to certain types of magical attacks or enchantments.
 </div>
 
@@ -26,7 +24,6 @@ Dwarves are renowned for their sturdiness and resilience, often seen as the embo
 
 <h3>Unique Modifiers</h3>
 **Unique Bonus: Master Craftsmen** - Dwarves have an inherent skill in crafting, especially with metal and stone, granting them bonuses in related tasks and professions.
-
 **Strategic Weakness: Claustral Nature** - Their affinity for underground living and close-knit societies can lead to challenges in adapting to open environments and dealing with diverse cultures.
 </div>
 
@@ -36,7 +33,6 @@ Halflings are small in stature but immense in spirit, often displaying a jovial 
 
 <h3>Unique Modifiers</h3>
 **Unique Bonus: Luck of the Halflings** - Halflings have a natural propensity for luck, granting them advantages in situations where chance plays a part.
-
 **Strategic Weakness: Size Limitation** - Their small size, while advantageous in agility and stealth, can be a hindrance in situations requiring physical strength or intimidation.
 </div>
 
@@ -46,7 +42,6 @@ Half-Elves embody the grace of elves and the versatility of humans, often findin
 
 <h3>Unique Modifiers</h3>
 **Unique Bonus: Social Chameleon** - Half-Elves have an innate ability to understand and adapt to various cultures and social situations, giving them advantages in social interactions and diplomacy.
-
 **Strategic Weakness: Dual Heritage Dilemma** - Their mixed heritage sometimes leaves them culturally and emotionally torn between the human and elven worlds, which can lead to internal conflicts and identity crises.
 </div>
 
@@ -56,7 +51,6 @@ Half-Orsinians are a compelling blend of human resilience and the robustness of 
 
 <h3>Unique Modifiers</h3>
 **Unique Bonus: Primal Resilience** - Half-Orsinians have enhanced physical endurance and a natural ability to withstand harsh conditions, thanks to their robust Orsinian heritage.
-
 **Strategic Weakness: Cultural Dichotomy** - Their mixed lineage can sometimes create challenges in fully integrating into either human or Orsinian societies, leading to potential identity conflicts or social hurdles.
 </div>
 
@@ -66,7 +60,6 @@ Gnomes are small but remarkably spirited and intelligent beings, thriving in wor
 
 <h3>Unique Modifiers</h3>
 **Unique Bonus: Inventive Genius** - Gnomes possess an extraordinary talent for invention and problem-solving, granting them bonuses in tasks involving engineering, magic, and crafting.
-
 **Strategic Weakness: Physical Limitation** - Their small stature and limited physical strength can be a disadvantage in combat or other situations requiring brute force.
 </div>
 
@@ -76,7 +69,6 @@ The Senrats are an intriguing race, taller than Dwarves but shorter than both Hu
 
 <h3>Unique Modifiers</h3>
 **Unique Bonus: Arboreal Agility** - With their evolutionary background, Senrats possess exceptional agility and balance, especially in forested or uneven terrains, giving them advantages in navigation and stealth in these environments.
-
 **Strategic Weakness: Social Ambiguity** - While adept at survival, their unique appearance and customs can sometimes lead to misunderstandings or mistrust in interactions with other races, especially in unfamiliar settings.
 </div>
 
