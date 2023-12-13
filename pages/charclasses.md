@@ -1,15 +1,17 @@
-# Classes
+<h1>Classes - Archetypes and Subclasses</h1>
 
-AD&D 2nd edition is a role-playing game that allows you to create and play characters of various races and classes in a fantasy world. Classes are the main categories that define your character's abilities, skills, and role in the game. There are four main groups or "metaclasses" of classes: Warrior, Wizard, Priest, and Rogue¹. Each metaclass has several subclasses that offer different specializations and options.
+This role-playing game allows you to create and play characters of various races and classes in a fantasy world. Classes are the main categories that define your character's abilities, skills, and role in the game. There are four main groups or "metaclasses" of classes: Warrior, Wizard, Priest, and Rogue¹. Each metaclass has several subclasses that offer different specializations and options.
 
 Here is a brief overview of each metaclass and subclass:
 
-## Warrior
-**Warriors** are skilled in combat and physical prowess. They can use any weapon and armor, and have the highest hit points and attack bonuses. They also gain followers at high levels. The subclasses of Warrior are:
+<div id="warrior-class">
+<h2>Warriors</h2>
+  Warriors are skilled in combat and physical prowess. They can use any weapon and armor, and have the highest hit points and attack bonuses. They also gain followers at high levels. The subclasses of Warrior are:
 
 - **Fighter**: Fighters are the most versatile and adaptable warriors. They can specialize in a weapon type, gaining extra attacks and bonuses with it. They can also become weapon masters, gaining extraordinary abilities with their chosen weapon.
 - **Ranger**: Rangers are warriors who live in harmony with nature. They can use any weapon and light armor, and have some skills in tracking, stealth, and survival. They also have some limited spellcasting ability from the priest sphere of Animal, Plant, or Elemental. They can specialize in fighting certain types of enemies, such as giants or undead, gaining bonuses against them.
 - **Paladin**: Paladins are holy warriors who serve a good-aligned deity. They can use any weapon and armor, and have some skills in healing, detecting evil, and turning undead. They also have some limited spellcasting ability from the priest sphere of Healing or Protection. They must follow a strict code of conduct, or risk losing their powers.
+</div>
 
 ## Wizard
 **Wizards** are masters of arcane magic. They can use only a few weapons and no armor, and have the lowest hit points and attack bonuses. They must study and memorize spells from spellbooks, which they can learn from scrolls or other sources. They can also create magic items and research new spells. The subclasses of Wizard are:
