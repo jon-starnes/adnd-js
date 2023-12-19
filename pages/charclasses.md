@@ -13,14 +13,18 @@ Here is a brief overview of each metaclass and subclass:
 - **Paladin**: Paladins are holy warriors who serve a good-aligned deity. They can use any weapon and armor, and have some skills in healing, detecting evil, and turning undead. They also have some limited spellcasting ability from the priest sphere of Healing or Protection. They must follow a strict code of conduct, or risk losing their powers.
 </div>
 
-## Wizard
+<div id="wizard-class">
+<h2>Wizards</h2>
 **Wizards** are masters of arcane magic. They can use only a few weapons and no armor, and have the lowest hit points and attack bonuses. They must study and memorize spells from spellbooks, which they can learn from scrolls or other sources. They can also create magic items and research new spells. The subclasses of Wizard are:
 
 - **Mages**: Mages are the most general and flexible wizards. They can learn spells from any of the eight schools of magic: Abjuration, Alteration, Conjuration/Summoning, Divination, Enchantment/Charm, Illusion/Phantasm, Invocation/Evocation, and Necromancy. However, they must choose one school to be their specialty, gaining extra spells from it, and two schools to be their opposition, which they cannot learn at all.
 - **Specialist**: Specialists are wizards who focus on one school of magic to the exclusion of others. They gain more spells and abilities from their chosen school, but they cannot learn spells from two or more opposition schools. There are eight types of specialists: Abjurer (Abjuration), Transmuter (Alteration), Conjurer (Conjuration/Summoning), Diviner (Divination), Enchanter (Enchantment/Charm), Illusionist (Illusion/Phantasm), Invoker (Invocation/Evocation), and Necromancer (Necromancy).
 - **Illusionist**: Illusionists are a special type of specialist wizard who focus on the school of Illusion/Phantasm. They have some differences from other specialists, such as being able to use daggers and darts as weapons, having a different spell progression table, and being able to multi-class with thieves.
+</div>
 
-## Priest
+
+<div id="priest-class">
+<h2>Priests</h2>
 **Priests** are servants of divine powers. They can use only certain weapons and armor, depending on their faith, and have moderate hit points and attack bonuses. They do not need to memorize spells; instead, they pray for them each day from their deity's sphere of influence. They can also perform miracles such as healing wounds, curing diseases, or turning undead. The subclasses of Priest are:
 
 - **Cleric**: Clerics are the most common and versatile priests. They can use any blunt weapon and any armor,
@@ -44,17 +48,19 @@ and Wards.
 
 - **Druid**: Druids are priests who worship nature and its cycles. They can use only blunt weapons and leather armor, and have access to a limited range of spheres: All (except reversed spells), Animal, Elemental, Healing, Plant, Sun (reversed only), Weather, and one extra sphere depending on their alignment. They also have some special abilities, such as shapechanging into animals, identifying plants and animals, and being immune to charm spells.
 - **Priests of Specific Mythoi**: These are priests who follow a specific deity or pantheon from a particular campaign setting or mythology. They have their own unique spheres of influence, weapons and armor restrictions, special abilities, and role-playing requirements. Some examples are clerics of Helm from the Forgotten Realms setting, priests of Odin from Norse mythology, or templars of Athas from the Dark Sun setting.  
+</div>
 
 
-## Rogue
+<div id="rogue-class">
+<h2>Rogues</h2>
 **Rogues** are skilled in stealth, deception, and cunning. They can use any weapon and armor, but prefer light ones that do not hinder their mobility and dexterity. They have the lowest hit points and attack bonuses, but they can compensate with their special skills and abilities. The subclasses of Rogue are:
 
 - **Thief**: Thieves are rogues who specialize in stealing, sneaking, lockpicking, trapfinding, climbing, and backstabbing. They have a set of skills that they can improve as they gain levels, such as pick pockets, open locks, find/remove traps, move silently, hide in shadows, detect noise, climb walls, read languages, use scrolls (at high levels), and backstab (deal extra damage when attacking an unaware opponent). 
 - **Bard**: Bards are rogues who use their charm, wit, and musical talent to entertain, persuade, or deceive others. They have some thief skills that they can improve as they gain levels, such as pick pockets, detect noise, climb walls (reduced chance), read languages (reduced chance), use scrolls (at high levels), and backstab (reduced damage). They also have some limited spellcasting ability from the wizard schools of Enchantment/Charm and Illusion/Phantasm. They can also use their musical instruments or singing voice to perform various effects, such as inspiring allies, soothing beasts, countering magic, or fascinating enemies.  
 
 [Read here](rogues2.html) to read about other specialist Rogue subclasses.   
-  
-  
+</div>
+
 ---  
 
 Source: Conversation with Bing, 4/30/2023  
